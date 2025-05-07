@@ -4,7 +4,7 @@ Welcome to the official wiki for <a href="https://store.steampowered.com/app/357
 \r
 ## About\r
 \r
-A modern warfare tower defense game where you build, upgrade, and customize defenses to hold back an enemy invasion. Learn abilities and skills, craft advanced ammunition, and gather resources on the battlefield to strengthen and expand your defense.\r
+Empyrean Defense is a modern warfare tower defense game where you build, upgrade, and customize defenses to hold back an enemy invasion. Learn abilities and skills, craft advanced ammunition, and gather resources on the battlefield to strengthen and expand your defense.\r
 \r
 ## News\r
 \r
