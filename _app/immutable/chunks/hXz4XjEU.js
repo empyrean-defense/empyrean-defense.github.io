@@ -1,0 +1,17 @@
+const r=`[Back](/abilities)\r
+\r
+# Napalm Strike\r
+\r
+Engulfs all enemies within an area in flames\r
+\r
+## Stats\r
+- Type: Attack\r
+- Tier: I\r
+- Effect: Area\r
+- Rank Required: Corporal (3)\r
+- Cooldown: 15s\r
+- Duration: 8s\r
+- Tick: .5s\r
+- Damage (per tick): 50\r
+- Damage (total): 800hp\r
+- Radius: 20m`;export{r as default};
