@@ -1,6 +1,6 @@
 const e=`# Release Notes\r
 \r
-### **v0.0.1 - Playtest Launch (October 27, 2025)**\r
+### **v0.0.2 - Playtest Launch (October 28, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
