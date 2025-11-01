@@ -86,10 +86,10 @@ A: Playtest sessions are open for a limited time. Check announcements on Discord
 \r
 ---\r
 \r
-## Known Issues (v0.0.1)\r
+## Known Issues (v0.1.0)\r
 \r
-- Occasional performance drops with Soldier units.\r
-- Some small terrain objects may clip during large enemy waves.\r
+- Occasional performance drops with Soldier and APC units\r
+- Coin drops may clip through terrain on occassion\r
 \r
 ---\r
 \r
