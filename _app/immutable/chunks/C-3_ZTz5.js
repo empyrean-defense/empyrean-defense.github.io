@@ -1,6 +1,6 @@
 const e=`# Release Notes\r
 \r
-### **v0.1.0 - Sunflare Dunes (October 31, 2025)**\r
+### **v0.1.1 - Sunflare Dunes (October 31, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
