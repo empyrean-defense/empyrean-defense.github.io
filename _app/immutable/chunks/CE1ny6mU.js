@@ -53,6 +53,24 @@ Build, upgrade, and strategically manage your defense sites to survive each wave
 \r
 ---\r
 \r
+## Exporting Logs\r
+\r
+Follow these steps to export all logs and prepare to submit for a bug report:\r
+\r
+1. Open the Settings menu in game\r
+2. Navigate to the Game tab\r
+3. Scroll down to find the Export Logs button and select it\r
+\r
+![Logs Export](/playtest/logs_export.png)\r
+\r
+4. You will see a popup message indicating the absolute path of the zipped logs package\r
+\r
+![Logs Export Success](/playtest/logs_export_success.png)\r
+\r
+5. Navigate to this directory and upload to the bug report when submitting\r
+\r
+---\r
+\r
 ## Tips for Playtesters\r
 \r
 - Use abilities to help get through more difficult waves. Assign abilities to hotkeys in the **Abilities Page**\r

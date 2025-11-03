@@ -10,21 +10,7 @@ Empyrean Defense is a modern warfare tower defense game where you build, upgrade
 \r
 Early Access release is planned for January 22, 2026. For anyone interested in testing the game prior to Early Access please contact <a href="https://nighthawk-studios.com/" target="_blank">Nighthawk Studios</a> for a playtest activation key. Once you receive an activation key, head over to the [Playtest Page](/playtest) to get started!\r
 \r
-## Release Notes\r
+## Status\r
 \r
-### **v0.1.1 - Sunflare Dunes (October 31, 2025)**\r
-**Status:** 🟢 *Live on Steam Playtest*\r
-\r
-#### New Features\r
-- Added 5th campaign level: Sunflare Dunes\r
-\r
-### **v0.0.3 - Bug Fixes (October 29, 2025)**\r
-\r
-#### Bug fixes\r
-- Disallow controller focus on Quit button in Pause Menu when Settings menu is open\r
-\r
-### **v0.0.2 - Playtest Launch (October 28, 2025)**\r
-\r
-#### New Features\r
-- Initial public playtest release\r
-- Includes first 4 campaign levels: Verdant Anchorage, Greenwood Shoreline, Sidewinder Pass, and Graywake Reach`;export{e as default};
+### **v0.1.2 (November 3, 2025)**\r
+**Status:** 🟢 *Live on Steam Playtest*`;export{e as default};

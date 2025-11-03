@@ -6,10 +6,10 @@ Compact, fortified structure designed for early stage defense. Equipped with a r
 \r
 ## Stats\r
 - Hitpoints: 5000 hp\r
-- Damage: 40\r
+- Damage: 44\r
 - Range: 40m\r
 - Rate of Fire: 4\r
-- Crit Chance: 3%\r
+- Crit Chance: 2%\r
 - Armor Piercing: 5%\r
 - Cost: 800\r
 - Build Time: 2s\r
