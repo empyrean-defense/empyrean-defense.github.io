@@ -21,8 +21,8 @@ Early Access release is planned for January 22, 2026. For anyone interested in t
 #### Balance Changes\r
 - Remove most APCs from Harborview District\r
 - Reduce resources needed to craft Rockets and Flak Shells\r
-- Reduce credits given by Hidden Caches from 1000 to 500\r
-- Add 200 extra starting credits on Verdant Anchorage\r
+- Reduce credits given by Hidden Caches from **1000** -> **500**\r
+- Add **200** extra starting credits on Verdant Anchorage\r
 \r
 #### Bug Fixes\r
 - Fix issue with Flak Cannons doing double damage`;export{e as default};
