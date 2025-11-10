@@ -1,25 +1,26 @@
 const e=`[Back](/enemies)\r
 \r
-# LATV\r
+# Humvee\r
 \r
-The Light All-Terrain Vehicle is a lightweight, unarmed unit built for speed and mobility. Designed to traverse rough terrain with ease, it’s often used for scouting or diversionary maneuvers. While it lacks offensive capability, its durability and pace allow it to soak up tower fire or draw attention away from more dangerous units. Slowing or intercepting LATVs early prevents them from reaching critical positions.\r
+A durable, all terrain vehicle designed for reliability over raw speed. It carries no weapons but features reinforced armor, allowing it to absorb considerable damage before breaking down. Often deployed alongside infantry or heavier transports, its primary role is to shield advancing units and draw tower fire. Though not an immediate threat, ignoring a Humvee can let more dangerous enemies slip through unchallenged.\r
 \r
 ## Stats\r
-- Health: 2000 hp\r
-- Speed: 12 m/s\r
-- Armor: 20 ap\r
-- Credits: 100\r
+- Health: 1200 hp\r
+- Speed: 13 m/s\r
+- Armor: 10 ap\r
+- Credits: 80\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 25%\r
+### Items drop table roll chance: 20%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 2 - 4 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 4 - 6 |\r
 | <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 1 - 2 |\r
 | <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 1 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 - 2 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 - 2 |\r
 | <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
 \r
 ### Abilities drop table roll chance: 10%\r

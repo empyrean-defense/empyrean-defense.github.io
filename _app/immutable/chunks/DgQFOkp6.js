@@ -1,12 +1,12 @@
 const e=`[Back](/enemies)\r
 \r
-# Utility Helicopter\r
+# Jeep\r
 \r
-A versatile utility helicopter used for rapid troop transport, field resupply, and emergency extraction. Built for reliability and performance in demanding environments, it serves as a vital support platform across a range of operations. Though unarmed, its agility and payload capacity make it essential for maintaining mobility and logistical flow behind and near the front lines.\r
+A fast moving light vehicle used to quickly breach defensive lines. It’s unarmed and lightly armored, relying purely on speed to get through. While not a major threat on its own, its agility can distract military sites or slip through weak defenses before heavier units arrive.\r
 \r
 ## Stats\r
 - Health: 500 hp\r
-- Speed: 12 m/s\r
+- Speed: 16 m/s\r
 - Armor: 5 ap\r
 - Credits: 50\r
 \r
@@ -16,8 +16,10 @@ A versatile utility helicopter used for rapid troop transport, field resupply, a
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 2 - 4 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 3 - 5 |\r
+| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 1 - 2 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 1 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 |\r
 \r
 ### Abilities drop table roll chance: 5%\r
 \r

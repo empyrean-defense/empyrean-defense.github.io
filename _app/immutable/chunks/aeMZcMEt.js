@@ -6,7 +6,7 @@ The UAV drone serves as an aerial reconnaissance unit, flying steadily over the 
 \r
 ## Stats\r
 - Health: 1000 hp\r
-- Speed: 14 m/s\r
+- Speed: 17 m/s\r
 - Armor: 5 ap\r
 - Credits: 100\r
 \r

@@ -12,5 +12,17 @@ Early Access release is planned for January 22, 2026. For anyone interested in t
 \r
 ## Status\r
 \r
-## **v0.2.0 - Harborview District (November 7, 2025)**\r
-**Status:** 🟢 *Live on Steam Playtest*`;export{e as default};
+## **v0.3.0 - Dusthorn Canyon (November 9, 2025)**\r
+**Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added 7th campaign level: Dusthorn Canyon\r
+\r
+#### Balance Changes\r
+- Remove most APCs from Harborview District\r
+- Reduce resources needed to craft Rockets and Flak Shells\r
+- Reduce credits given by Hidden Caches from 1000 to 500\r
+- Add 200 extra starting credits on Verdant Anchorage\r
+\r
+#### Bug Fixes\r
+- Fix issue with Flak Cannons doing double damage`;export{e as default};

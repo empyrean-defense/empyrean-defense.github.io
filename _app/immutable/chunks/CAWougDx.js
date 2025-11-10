@@ -6,7 +6,7 @@ Heavy caliber anti-air defense designed to keep the skies clear. Each shell deto
 \r
 ## Stats\r
 - Hitpoints: 2500 hp\r
-- Damage: 160\r
+- Damage: 70\r
 - Range: 110m\r
 - Rate of Fire: 1\r
 - Crit Chance: 10%\r

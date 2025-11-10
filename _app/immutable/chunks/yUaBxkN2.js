@@ -1,7 +1,21 @@
 const e=`# Release Notes\r
 \r
-## **v0.2.0 - Harborview District (November 7, 2025)**\r
+## **v0.3.0 - Dusthorn Canyon (November 9, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added 7th campaign level: Dusthorn Canyon\r
+\r
+#### Balance Changes\r
+- Remove most APCs from Harborview District\r
+- Reduce resources needed to craft Rockets and Flak Shells\r
+- Reduce credits given by Hidden Caches from 1000 to 500\r
+- Add 200 extra starting credits on Verdant Anchorage\r
+\r
+#### Bug Fixes\r
+- Fix issue with Flak Cannons doing double damage\r
+\r
+## **v0.2.0 - Harborview District (November 7, 2025)**\r
 \r
 #### New Features\r
 - Added 6th campaign level: Harborview District\r
