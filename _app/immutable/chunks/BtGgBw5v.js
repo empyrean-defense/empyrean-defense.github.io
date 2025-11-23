@@ -1,7 +1,21 @@
 const e=`# Release Notes\r
 \r
-## **v0.3.0 - Dusthorn Canyon (November 9, 2025)**\r
+## **v0.4.0 - Rolling Hills (November 19, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added 8th campaign level: Rolling Hills\r
+\r
+#### Balance Changes\r
+- Buff IFV\r
+  - Increase hitpoints from **3000** -> **3500**\r
+  - Increase damage from **50** -> **100**\r
+  - Increase range from **40** -> **45**\r
+  - Increase armor from **40%** -> **45%**\r
+- Increase Pillbox damage from **44** -> **45**\r
+- Increase power usage of Field Tent from **200** -> **400**\r
+\r
+## **v0.3.0 - Dusthorn Canyon (November 9, 2025)**\r
 \r
 #### New Features\r
 - Added 7th campaign level: Dusthorn Canyon\r

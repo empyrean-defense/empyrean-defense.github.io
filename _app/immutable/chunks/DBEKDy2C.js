@@ -8,7 +8,7 @@ A modest research outpost, enabling basic upgrades and enhancements for military
 - Hitpoints: 3000 hp\r
 - Cost: 800\r
 - Build Time: 2s\r
-- Power Consumed: 200\r
+- Power Consumed: 400\r
 \r
 ## Upgrades\r
 \r

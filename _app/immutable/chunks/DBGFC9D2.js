@@ -5,15 +5,15 @@ const e=`[Back](/enemies)\r
 The Infantry Fighting Vehicle is a versatile frontline unit combining mobility and protection. It provides steady supporting fire while pushing through defenses, shielding advancing troops behind its armor. Though not as powerful as heavy armor, it can withstand significant punishment before going down. Well balanced and reliable, these vehicles often form the backbone of enemy assaults, requiring sustained or high impact fire to bring them down.\r
 \r
 ## Stats\r
-- Health: 3000 hp\r
+- Health: 3500 hp\r
 - Speed: 10 m/s\r
-- Armor: 40 ap\r
+- Armor: 45 ap\r
 - Credits: 200\r
 \r
-- Damage: 50\r
+- Damage: 100\r
 - Rate of Fire: 3\r
 - Crit Chance: 5%\r
-- Range: 40m\r
+- Range: 45m\r
 \r
 ## Drops\r
 \r

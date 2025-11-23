@@ -6,7 +6,7 @@ Compact, fortified structure designed for early stage defense. Equipped with a r
 \r
 ## Stats\r
 - Hitpoints: 5000 hp\r
-- Damage: 44\r
+- Damage: 45\r
 - Range: 40m\r
 - Rate of Fire: 4\r
 - Crit Chance: 2%\r

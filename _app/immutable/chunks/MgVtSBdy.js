@@ -12,17 +12,17 @@ Early Access release is planned for January 22, 2026. For anyone interested in t
 \r
 ## Status\r
 \r
-## **v0.3.0 - Dusthorn Canyon (November 9, 2025)**\r
+## **v0.4.0 - Rolling Hills (November 19, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
-- Added 7th campaign level: Dusthorn Canyon\r
+- Added 8th campaign level: Rolling Hills\r
 \r
 #### Balance Changes\r
-- Remove most APCs from Harborview District\r
-- Reduce resources needed to craft Rockets and Flak Shells\r
-- Reduce credits given by Hidden Caches from **1000** -> **500**\r
-- Add **200** extra starting credits on Verdant Anchorage\r
-\r
-#### Bug Fixes\r
-- Fix issue with Flak Cannons doing double damage`;export{e as default};
+- Buff IFV\r
+  - Increase hitpoints from **3000** -> **3500**\r
+  - Increase damage from **50** -> **100**\r
+  - Increase range from **40** -> **45**\r
+  - Increase armor from **40%** -> **45%**\r
+- Increase Pillbox damage from **44** -> **45**\r
+- Increase power usage of Field Tent from **200** -> **400**`;export{e as default};
