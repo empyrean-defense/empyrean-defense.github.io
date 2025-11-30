@@ -1,7 +1,17 @@
 const e=`# Release Notes\r
 \r
-## **v0.4.0 - Rolling Hills (November 19, 2025)**\r
+## **v0.4.1 - Controller Improvements (November 29, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added *Pause When Unfocused* setting (default to true) that will pause the game when the window loses focus or the Steam overlay is actived\r
+- If using a controller, automatically pause the game if the controller disconnects\r
+\r
+#### Bug Fixes\r
+- Add controller hotkey for *Reset To Defaults* button in settings pages\r
+- Fix the rotation of build sites on *Greenwood Shoreline*\r
+\r
+## **v0.4.0 - Rolling Hills (November 19, 2025)**\r
 \r
 #### New Features\r
 - Added 8th campaign level: Rolling Hills\r

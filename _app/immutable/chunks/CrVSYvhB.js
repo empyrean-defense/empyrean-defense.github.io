@@ -12,17 +12,13 @@ Early Access release is planned for January 22, 2026. For anyone interested in t
 \r
 ## Status\r
 \r
-## **v0.4.0 - Rolling Hills (November 19, 2025)**\r
+## **v0.4.1 - Controller Improvements (November 29, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
-- Added 8th campaign level: Rolling Hills\r
+- Added *Pause When Unfocused* setting (default to true) that will pause the game when the window loses focus or the Steam overlay is actived\r
+- If using a controller, automatically pause the game if the controller disconnects\r
 \r
-#### Balance Changes\r
-- Buff IFV\r
-  - Increase hitpoints from **3000** -> **3500**\r
-  - Increase damage from **50** -> **100**\r
-  - Increase range from **40** -> **45**\r
-  - Increase armor from **40%** -> **45%**\r
-- Increase Pillbox damage from **44** -> **45**\r
-- Increase power usage of Field Tent from **200** -> **400**`;export{e as default};
+#### Bug Fixes\r
+- Add controller hotkey for *Reset To Defaults* button in settings pages\r
+- Fix the rotation of build sites on *Greenwood Shoreline*`;export{e as default};
