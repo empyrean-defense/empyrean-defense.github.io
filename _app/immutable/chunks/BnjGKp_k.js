@@ -6,7 +6,7 @@ Launches bursts of superheated energy that erupt in powerful blasts upon contact
 \r
 ## Stats\r
 - Hitpoints: 10000 hp\r
-- Damage: 100\r
+- Damage: 150\r
 - Range: 60m\r
 - Rate of Fire: 2\r
 - Crit Chance: 0%\r

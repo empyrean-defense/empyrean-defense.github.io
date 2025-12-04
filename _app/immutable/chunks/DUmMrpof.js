@@ -1,7 +1,25 @@
 const e=`# Release Notes\r
 \r
-## **v0.4.1 - Controller Improvements (November 29, 2025)**\r
+## **v0.4.2 - UX Improvements and Tier 2 Site Balance Changes (December 3, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- New Damage/Crit popups\r
+- Add hotkey and icon for quitting the game from the play menu using a controller\r
+- Add dialogue container mission markers for better user experience during mission intros\r
+\r
+#### Balance Changes\r
+- Nerf Missile Launcher Racking System upgrade from **50%** -> **15%**\r
+- Increase Tesla Coil damage from **20** -> **50**\r
+- Increase Plasma Gun damage from **100** -> **150**\r
+\r
+#### Bug Fixes\r
+- Fix issue with Infinite Reserves (Tier 1) skill showing infinite icons for Tier 2/3 sites\r
+- Fix issue with hitpoints bars color being affected by range ring decals\r
+- Fix issue with Tesla Coil damage sparks lagging behind units\r
+- Fix issue with buying items in the market with the Wolf of Wall Street skill learned\r
+\r
+## **v0.4.1 - Controller Improvements (November 29, 2025)**\r
 \r
 #### New Features\r
 - Added *Pause When Unfocused* setting (default to true) that will pause the game when the window loses focus or the Steam overlay is actived\r

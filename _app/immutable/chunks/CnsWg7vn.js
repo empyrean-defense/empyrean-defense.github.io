@@ -6,7 +6,7 @@ Channels concentrated electrical energy into precise, high voltage discharges. E
 \r
 ## Stats\r
 - Hitpoints: 10000 hp\r
-- Damage: 20\r
+- Damage: 50\r
 - Range: 50m\r
 - Rate of Fire: 10\r
 - Crit Chance: 0%\r
