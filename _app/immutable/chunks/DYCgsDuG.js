@@ -16,21 +16,19 @@ We're gearing up for an exciting few months!\r
 \r
 ## Status\r
 \r
-## **v0.4.2 - UX Improvements and Tier 2 Site Balance Changes (December 3, 2025)**\r
+## **v0.5.0 - Azure Run (December 28, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
-- New Damage/Crit popups\r
-- Add hotkey and icon for quitting the game from the play menu using a controller\r
-- Add dialogue container mission markers for better user experience during mission intros\r
-\r
-#### Balance Changes\r
-- Nerf Missile Launcher Racking System upgrade from **50%** -> **15%**\r
-- Increase Tesla Coil damage from **20** -> **50**\r
-- Increase Plasma Gun damage from **100** -> **150**\r
+- Add 9th campaign level: Azure Run\r
+- Add Day/Night phases\r
+- Prevent Solar Arrays from providing power on night missions\r
+- Better environment fog effects\r
+- Remove fog toggle option in Settings\r
+- Add environment brightness option in Settings\r
+- Add a Next Wave indicator for each path, showing each enemy unit/amount expected in the next wave\r
+- Add option in Settings to toggle air path clouds\r
+- Add first boss and boss icons to related UI elements\r
 \r
 #### Bug Fixes\r
-- Fix issue with Infinite Reserves (Tier 1) skill showing infinite icons for Tier 2/3 sites\r
-- Fix issue with hitpoints bars color being affected by range ring decals\r
-- Fix issue with Tesla Coil damage sparks lagging behind units\r
-- Fix issue with buying items in the market with the Wolf of Wall Street skill learned`;export{e as default};
+- Fix issue with persisting global attack prioritization setting`;export{e as default};

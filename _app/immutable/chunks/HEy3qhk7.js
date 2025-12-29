@@ -1,7 +1,23 @@
 const e=`# Release Notes\r
 \r
-## **v0.4.2 - UX Improvements and Tier 2 Site Balance Changes (December 3, 2025)**\r
+## **v0.5.0 - Azure Run (December 28, 2025)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Add 9th campaign level: Azure Run\r
+- Add Day/Night phases\r
+- Prevent Solar Arrays from providing power on night missions\r
+- Better environment fog effects\r
+- Remove fog toggle option in Settings\r
+- Add environment brightness option in Settings\r
+- Add a Next Wave indicator for each path, showing each enemy unit/amount expected in the next wave\r
+- Add option in Settings to toggle air path clouds\r
+- Add first boss and boss icons to related UI elements\r
+\r
+#### Bug Fixes\r
+- Fix issue with persisting global attack prioritization setting\r
+\r
+## **v0.4.2 - UX Improvements and Tier 2 Site Balance Changes (December 3, 2025)**\r
 \r
 #### New Features\r
 - New Damage/Crit popups\r
