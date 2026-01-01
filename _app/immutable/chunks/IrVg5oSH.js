@@ -16,19 +16,12 @@ We're gearing up for an exciting few months!\r
 \r
 ## Status\r
 \r
-## **v0.5.0 - Azure Run (December 28, 2025)**\r
+## **v0.5.1 - Night Vision Goggles (January 1, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
-- Add 9th campaign level: Azure Run\r
-- Add Day/Night phases\r
-- Prevent Solar Arrays from providing power on night missions\r
-- Better environment fog effects\r
-- Remove fog toggle option in Settings\r
-- Add environment brightness option in Settings\r
-- Add a Next Wave indicator for each path, showing each enemy unit/amount expected in the next wave\r
-- Add option in Settings to toggle air path clouds\r
-- Add first boss and boss icons to related UI elements\r
+- Added Night Vision Goggles to the Market (**1,000** tokens)\r
+  - Used for night missions with low visibility\r
 \r
 #### Bug Fixes\r
-- Fix issue with persisting global attack prioritization setting`;export{e as default};
+- Fix issue with enemy subcomponents hitpoints not respecting mission difficulty`;export{e as default};

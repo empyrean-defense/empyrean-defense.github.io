@@ -1,18 +1,27 @@
 const e=`# Release Notes\r
 \r
-## **v0.5.0 - Azure Run (December 28, 2025)**\r
+## **v0.5.1 - Night Vision Goggles (January 1, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
-- Add 9th campaign level: Azure Run\r
-- Add Day/Night phases\r
+- Added Night Vision Goggles to the Market (**1,000** tokens)\r
+  - Used for night missions with low visibility\r
+\r
+#### Bug Fixes\r
+- Fix issue with enemy subcomponents hitpoints not respecting mission difficulty\r
+\r
+## **v0.5.0 - Azure Run (December 28, 2025)**\r
+\r
+#### New Features\r
+- Added 9th campaign level: Azure Run\r
+- Added Day/Night phases\r
 - Prevent Solar Arrays from providing power on night missions\r
 - Better environment fog effects\r
 - Remove fog toggle option in Settings\r
-- Add environment brightness option in Settings\r
-- Add a Next Wave indicator for each path, showing each enemy unit/amount expected in the next wave\r
-- Add option in Settings to toggle air path clouds\r
-- Add first boss and boss icons to related UI elements\r
+- Added environment brightness option in Settings\r
+- Added a Next Wave indicator for each path, showing each enemy unit/amount expected in the next wave\r
+- Added option in Settings to toggle air path clouds\r
+- Added first boss and boss icons to related UI elements\r
 \r
 #### Bug Fixes\r
 - Fix issue with persisting global attack prioritization setting\r
@@ -21,8 +30,8 @@ const e=`# Release Notes\r
 \r
 #### New Features\r
 - New Damage/Crit popups\r
-- Add hotkey and icon for quitting the game from the play menu using a controller\r
-- Add dialogue container mission markers for better user experience during mission intros\r
+- Added hotkey and icon for quitting the game from the play menu using a controller\r
+- Added dialogue container mission markers for better user experience during mission intros\r
 \r
 #### Balance Changes\r
 - Nerf Missile Launcher Racking System upgrade from **50%** -> **15%**\r
@@ -42,7 +51,7 @@ const e=`# Release Notes\r
 - If using a controller, automatically pause the game if the controller disconnects\r
 \r
 #### Bug Fixes\r
-- Add controller hotkey for *Reset To Defaults* button in settings pages\r
+- Added controller hotkey for *Reset To Defaults* button in settings pages\r
 - Fix the rotation of build sites on *Greenwood Shoreline*\r
 \r
 ## **v0.4.0 - Rolling Hills (November 19, 2025)**\r
@@ -68,7 +77,7 @@ const e=`# Release Notes\r
 - Remove most APCs from Harborview District\r
 - Reduce resources needed to craft Rockets and Flak Shells\r
 - Reduce credits given by Hidden Caches from **1000** -> **500**\r
-- Add **200** extra starting credits on Verdant Anchorage\r
+- Added **200** extra starting credits on Verdant Anchorage\r
 \r
 #### Bug Fixes\r
 - Fix issue with Flak Cannons doing double damage\r
