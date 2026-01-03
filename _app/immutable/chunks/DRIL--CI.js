@@ -16,7 +16,7 @@ We're gearing up for an exciting few months!\r
 \r
 ## Status\r
 \r
-## **v0.5.2 - More Equipment (January 1, 2026)**\r
+## **v0.5.2 - More Equipment (January 3, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
