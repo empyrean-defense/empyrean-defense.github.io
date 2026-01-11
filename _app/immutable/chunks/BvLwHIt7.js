@@ -2,7 +2,7 @@ const e=`[Back](/enemies)\r
 \r
 # Humvee\r
 \r
-A durable, all terrain vehicle designed for reliability over raw speed. It carries no weapons but features reinforced armor, allowing it to absorb considerable damage before breaking down. Often deployed alongside infantry or heavier transports, its primary role is to shield advancing units and draw tower fire. Though not an immediate threat, ignoring a Humvee can let more dangerous enemies slip through unchallenged.\r
+A durable, all terrain vehicle designed for reliability over raw speed. It carries no weapons but features reinforced armor, allowing it to absorb moderate damage before breaking down. Often deployed alongside infantry or heavier transports, its primary role is to shield advancing units and draw site fire. Though not an immediate threat, focusing a Humvee can let more dangerous enemies slip through unchallenged.\r
 \r
 ## Stats\r
 - Health: 1200 hp\r

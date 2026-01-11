@@ -16,19 +16,16 @@ We're gearing up for an exciting few months!\r
 \r
 ## Status\r
 \r
-## **v0.5.2 - More Equipment (January 3, 2026)**\r
+## **v0.6.0 - SAM Launcher & Supply Drop (January 10, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
-- Added *Service Pistol* to the Market (**1,500** tokens)\r
-  - Increases site and ability damage by 2%\r
-- Added *Service Rifle* to the Market (**5,000** tokens)\r
-  - Increases site and ability damage by 3%\r
-- Added *Assault Rifle* to the Market (**10,000** tokens)\r
-  - Increases site and ability damage by 5%\r
-- Added *Field Logistics Kit* to the Market (**5,000** tokens)\r
-  - Reduces site build and upgrade costs by 3%\r
-- Added *Seed Capital* to the Market (**10,000** tokens)\r
-  - Grants an additional 5% starting credits at the beginning of each mission\r
-- Added *Power Cell* to the Market (**5,000** tokens)\r
-  - Lowers energy usage of all sites by 5%`;export{e as default};
+- Added [SAM Launcher](/enemies/sam_launcher) boss to *Sidewinder Pass* \r
+- Added boss and resources icons to map flags\r
+- Added [Supply Drop](/abilities/supply_drop) ability\r
+- Added Advanced Logistics skill\r
+\r
+#### Bug Fixes\r
+- Fixed targeting issue with enemy subcomponents\r
+- Fixed issue with ability bar interactions with picked up abilities\r
+- Fixed issue with Assault Rifle damage bonus`;export{e as default};

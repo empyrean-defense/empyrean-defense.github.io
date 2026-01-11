@@ -2,7 +2,7 @@ const e=`[Back](/enemies)\r
 \r
 # LATV\r
 \r
-The Light All-Terrain Vehicle is a lightweight, unarmed unit built for speed and mobility. Designed to traverse rough terrain with ease, it’s often used for scouting or diversionary maneuvers. While it lacks offensive capability, its durability and pace allow it to soak up tower fire or draw attention away from more dangerous units. Slowing or intercepting LATVs early prevents them from reaching critical positions.\r
+The Light All-Terrain Vehicle is a lightweight, unarmed unit built for speed and mobility. Designed to traverse rough terrain with ease, it’s often used for scouting or diversionary maneuvers. While it lacks offensive capability, its durability and pace allow it to soak up site fire or draw attention away from more dangerous units. Slowing or intercepting LATVs early prevents them from reaching critical positions.\r
 \r
 ## Stats\r
 - Health: 2000 hp\r

@@ -1,7 +1,20 @@
 const e=`# Release Notes\r
 \r
-## **v0.5.2 - More Equipment (January 3, 2026)**\r
+## **v0.6.0 - SAM Launcher & Supply Drop (January 10, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added [SAM Launcher](/enemies/sam_launcher) boss to *Sidewinder Pass* \r
+- Added boss and resources icons to map flags\r
+- Added [Supply Drop](/abilities/supply_drop) ability\r
+- Added Advanced Logistics skill\r
+\r
+#### Bug Fixes\r
+- Fixed targeting issue with enemy subcomponents\r
+- Fixed issue with ability bar interactions with picked up abilities\r
+- Fixed issue with Assault Rifle damage bonus\r
+\r
+## **v0.5.2 - More Equipment (January 3, 2026)**\r
 \r
 #### New Features\r
 - Added *Service Pistol* to the Market (**1,500** tokens)\r
