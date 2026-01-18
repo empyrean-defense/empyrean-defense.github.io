@@ -1,7 +1,21 @@
 const e=`# Release Notes\r
 \r
-## **v0.6.0 - SAM Launcher & Supply Drop (January 10, 2026)**\r
+## **v0.6.1 - QOL Improvements & Bug Fixes (January 17, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### Improvements\r
+- Reduced installation size from **~3GB** → **~1GB** \r
+- Improved Pillbox Site targeting accuracy by adjusting attack line-of-sight origin\r
+- Updated Site Menu descriptions for improved clarity\r
+\r
+#### Balance Changes\r
+- Increased the amount of rockets given on *Graywake Reach* from **600** → **1000**\r
+\r
+#### Bug Fixes\r
+- Fixed incorrect controller icon display for DualShock and DualSense controllers\r
+- Fixed an issue where attack range indicators could clip at extreme terrain elevation changes\r
+\r
+## **v0.6.0 - SAM Launcher & Supply Drop (January 10, 2026)**\r
 \r
 #### New Features\r
 - Added [SAM Launcher](/enemies/sam_launcher) boss to *Sidewinder Pass* \r
@@ -63,9 +77,9 @@ const e=`# Release Notes\r
 - Added dialogue container mission markers for better user experience during mission intros\r
 \r
 #### Balance Changes\r
-- Nerf Missile Launcher Racking System upgrade from **50%** -> **15%**\r
-- Increase Tesla Coil damage from **20** -> **50**\r
-- Increase Plasma Gun damage from **100** -> **150**\r
+- Nerf Missile Launcher Racking System upgrade from **50%** → **15%**\r
+- Increase Tesla Coil damage from **20** → **50**\r
+- Increase Plasma Gun damage from **100** → **150**\r
 \r
 #### Bug Fixes\r
 - Fix issue with Infinite Reserves (Tier 1) skill showing infinite icons for Tier 2/3 sites\r
@@ -90,12 +104,12 @@ const e=`# Release Notes\r
 \r
 #### Balance Changes\r
 - Buff IFV\r
-  - Increase hitpoints from **3000** -> **3500**\r
-  - Increase damage from **50** -> **100**\r
-  - Increase range from **40** -> **45**\r
-  - Increase armor from **40%** -> **45%**\r
-- Increase Pillbox damage from **44** -> **45**\r
-- Increase power usage of Field Tent from **200** -> **400**\r
+  - Increase hitpoints from **3000** → **3500**\r
+  - Increase damage from **50** → **100**\r
+  - Increase range from **40** → **45**\r
+  - Increase armor from **40%** → **45%**\r
+- Increase Pillbox damage from **44** → **45**\r
+- Increase power usage of Field Tent from **200** → **400**\r
 \r
 ## **v0.3.0 - Dusthorn Canyon (November 9, 2025)**\r
 \r
@@ -105,7 +119,7 @@ const e=`# Release Notes\r
 #### Balance Changes\r
 - Remove most APCs from Harborview District\r
 - Reduce resources needed to craft Rockets and Flak Shells\r
-- Reduce credits given by Hidden Caches from **1000** -> **500**\r
+- Reduce credits given by Hidden Caches from **1000** → **500**\r
 - Added **200** extra starting credits on Verdant Anchorage\r
 \r
 #### Bug Fixes\r
@@ -124,8 +138,8 @@ const e=`# Release Notes\r
 \r
 #### Balance Changes\r
 - Pillbox\r
-  - Buff base damage from **40 -> 44**\r
-  - Nerf crit chance from **3% -> 2%**\r
+  - Buff base damage from **40 → 44**\r
+  - Nerf crit chance from **3% → 2%**\r
 - Rocket Strike Ability\r
   - Rockets now always travel the same distance for more consistent timing\r
 - Switched the positions of the Ability Chain and Triple Threat skills in the Skills Tree\r

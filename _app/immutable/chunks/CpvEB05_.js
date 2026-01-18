@@ -16,16 +16,17 @@ We're gearing up for an exciting few months!\r
 \r
 ## Status\r
 \r
-## **v0.6.0 - SAM Launcher & Supply Drop (January 10, 2026)**\r
+## **v0.6.1 - QOL Improvements & Bug Fixes (January 17, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
-#### New Features\r
-- Added [SAM Launcher](/enemies/sam_launcher) boss to *Sidewinder Pass* \r
-- Added boss and resources icons to map flags\r
-- Added [Supply Drop](/abilities/supply_drop) ability\r
-- Added Advanced Logistics skill\r
+#### Improvements\r
+- Reduced installation size from **~3GB** → **~1GB** \r
+- Improved Pillbox Site targeting accuracy by adjusting attack line-of-sight origin\r
+- Updated Site Menu descriptions for improved clarity\r
+\r
+#### Balance Changes\r
+- Increased the amount of rockets given on *Graywake Reach* from **600** → **1000**\r
 \r
 #### Bug Fixes\r
-- Fixed targeting issue with enemy subcomponents\r
-- Fixed issue with ability bar interactions with picked up abilities\r
-- Fixed issue with Assault Rifle damage bonus`;export{e as default};
+- Fixed incorrect controller icon display for DualShock and DualSense controllers\r
+- Fixed an issue where attack range indicators could clip at extreme terrain elevation changes`;export{e as default};

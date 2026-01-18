@@ -17,7 +17,7 @@ Calls in an airdropped supply crate delivering resources, ammunition, and credit
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 100% | 5 | 10 - 20 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 100% | 5 | 6 - 12 |\r
 | <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 50% | 10 | 2 - 5 |\r
 | <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 35% | 20 | 1 - 2 |\r
 | <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 25% | 100 | 1 - 2 |\r

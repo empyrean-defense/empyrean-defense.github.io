@@ -5,7 +5,7 @@ const e=`[Back](/enemies)\r
 Surface to air missile launcher is mounted to a reinforced heavy truck and extended with a chain of additional launcher units, forming a mobile missile convoy. While not actively engaging targets, the system represents a critical piece of enemy air defense infrastructure. Each launcher segment functions as an independent component, requiring precise strikes to disable the convoy before it advances further. Allowing the system to pass intact would significantly strengthen enemy control of the airspace\r
 \r
 ## Stats\r
-- Health: 50000 hp\r
+- Health: 22000 hp\r
 - Speed: 5 m/s\r
 - Armor: 20 ap\r
 - Credits: 1500\r
