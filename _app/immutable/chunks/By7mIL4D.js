@@ -7,6 +7,8 @@ const e=`# Release Notes\r
 - Reduced installation size from **~3GB** → **~1GB** \r
 - Improved Pillbox Site targeting accuracy by adjusting attack line-of-sight origin\r
 - Updated Site Menu descriptions for improved clarity\r
+- Updated mission and loading screen images\r
+- Added scrolling to armory description panel using controller right stick\r
 \r
 #### Balance Changes\r
 - Increased the amount of rockets given on *Graywake Reach* from **600** → **1000**\r
