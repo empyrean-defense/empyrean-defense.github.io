@@ -16,6 +16,7 @@ const e=`# Release Notes\r
 #### Bug Fixes\r
 - Fixed incorrect controller icon display for DualShock and DualSense controllers\r
 - Fixed an issue where attack range indicators could clip at extreme terrain elevation changes\r
+- Fixed an issue with confirming selected ability on roads, bridges, and water when using a controller\r
 \r
 ## **v0.6.0 - SAM Launcher & Supply Drop (January 10, 2026)**\r
 \r

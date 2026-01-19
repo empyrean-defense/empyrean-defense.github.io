@@ -31,4 +31,5 @@ We're gearing up for an exciting few months!\r
 \r
 #### Bug Fixes\r
 - Fixed incorrect controller icon display for DualShock and DualSense controllers\r
-- Fixed an issue where attack range indicators could clip at extreme terrain elevation changes`;export{e as default};
+- Fixed an issue where attack range indicators could clip at extreme terrain elevation changes\r
+- Fixed an issue with confirming selected ability on roads, bridges, and water when using a controller`;export{e as default};
