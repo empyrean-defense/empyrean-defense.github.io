@@ -1,27 +1,33 @@
 const e=`[Back](/enemies)\r
 \r
-# LCVP\r
+# Attack Vessel\r
 \r
-The Landing Craft Vehicle Personnel is a compact landing craft built to deliver infantry and vehicles directly to coastal defenses. It’s slow moving and lightly armored, and its ramp allows it to quickly unload soldiers once it reaches land. While not a direct threat itself, each one that slips through can release a wave of troops. Take it down early to keep the shoreline secure.\r
+A fast, armored patrol boat equipped with a forward mounted turret for direct engagement along rivers and coastal routes. Designed for flexibility and speed, it excels at intercepting light threats and supporting land based operations with precision fire from offshore. Its compact profile and maneuverability make it ideal for rapid response missions and securing key waterways.\r
 \r
 ## Stats\r
 - Health: 2000 hp\r
-- Speed: 10 m/s\r
-- Armor: 30 ap\r
-- Credits: 200\r
+- Speed: 12 m/s\r
+- Armor: 20 ap\r
+- Credits: 250\r
+\r
+- Damage: 30\r
+- Rate of Fire: 6\r
+- Crit Chance: 1%\r
+- Range: 50m\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 20%\r
+### Items drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 12 - 18 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 5 - 9 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 2 - 6 |\r
 | <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 2 - 4 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 |\r
 | <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 1 - 2 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 - 2 |\r
 \r
-### Abilities drop table roll chance: 10%\r
+### Abilities drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -37,7 +43,7 @@ The Landing Craft Vehicle Personnel is a compact landing craft built to deliver 
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 10%\r
+### Site drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -53,11 +59,11 @@ The Landing Craft Vehicle Personnel is a compact landing craft built to deliver 
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 10%\r
+### Skill points drop table roll chance: 15%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 10%\r
+### Rare items drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

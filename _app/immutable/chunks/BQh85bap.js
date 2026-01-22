@@ -1,25 +1,25 @@
 const e=`[Back](/enemies)\r
 \r
-# Transport\r
+# Jeep\r
 \r
-A heavy transport truck used to move enemy troops into the battlefield. It’s slow and unarmed, but don’t underestimate it, each one carries a squad of soldiers ready to disembark when the truck is destroyed or reaches its destination. Left unchecked, they can flood your defenses with infantry reinforcements. Prioritize these vehicles before they get too close to your front lines.\r
+A fast moving light vehicle used to quickly breach defensive lines. It’s unarmed and lightly armored, relying purely on speed to get through. While not a major threat on its own, its agility can distract military sites or slip through weak defenses before heavier units arrive.\r
 \r
 ## Stats\r
-- Health: 800 hp\r
-- Speed: 8 m/s\r
+- Health: 500 hp\r
+- Speed: 16 m/s\r
 - Armor: 5 ap\r
-- Credits: 75\r
+- Credits: 50\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 20%\r
+### Items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 2 - 3 |\r
-| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 2 - 4 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 3 - 5 |\r
+| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 1 - 2 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 1 |\r
 | <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 |\r
-| <img src="/items/rations_pack.png" title="Rations Pack" alt="Rations Pack" width="96px"> | Rations Pack | Misc | Military food supplies | 16.67% | 5 | 6 - 18 |\r
 \r
 ### Abilities drop table roll chance: 5%\r
 \r

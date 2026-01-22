@@ -1,27 +1,25 @@
 const e=`[Back](/enemies)\r
 \r
-# LATV\r
+# LCVP\r
 \r
-The Light All-Terrain Vehicle is a lightweight, unarmed unit built for speed and mobility. Designed to traverse rough terrain with ease, it’s often used for scouting or diversionary maneuvers. While it lacks offensive capability, its durability and pace allow it to soak up site fire or draw attention away from more dangerous units. Slowing or intercepting LATVs early prevents them from reaching critical positions.\r
+The Landing Craft Vehicle Personnel is a compact landing craft built to deliver infantry and vehicles directly to coastal defenses. It’s slow moving and lightly armored, and its ramp allows it to quickly unload soldiers once it reaches land. While not a direct threat itself, each one that slips through can release a wave of troops. Take it down early to keep the shoreline secure.\r
 \r
 ## Stats\r
 - Health: 2000 hp\r
-- Speed: 12 m/s\r
-- Armor: 20 ap\r
-- Credits: 100\r
+- Speed: 10 m/s\r
+- Armor: 30 ap\r
+- Credits: 200\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 25%\r
+### Items drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 6 - 8 |\r
-| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 1 - 2 |\r
-| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 1 - 2 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 - 2 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 12 - 18 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 2 - 4 |\r
+| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 1 - 2 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 - 2 |\r
 \r
 ### Abilities drop table roll chance: 10%\r
 \r

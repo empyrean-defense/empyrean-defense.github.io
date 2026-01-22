@@ -1,27 +1,34 @@
 const e=`[Back](/enemies)\r
 \r
-# Jeep\r
+# IFV\r
 \r
-A fast moving light vehicle used to quickly breach defensive lines. It’s unarmed and lightly armored, relying purely on speed to get through. While not a major threat on its own, its agility can distract military sites or slip through weak defenses before heavier units arrive.\r
+The Infantry Fighting Vehicle is a versatile frontline unit combining mobility and protection. It provides steady supporting fire while pushing through defenses, shielding advancing troops behind its armor. Though not as powerful as heavy armor, it can withstand significant punishment before going down. Well balanced and reliable, these vehicles often form the backbone of enemy assaults, requiring sustained or high impact fire to bring them down.\r
 \r
 ## Stats\r
-- Health: 500 hp\r
-- Speed: 16 m/s\r
-- Armor: 5 ap\r
-- Credits: 50\r
+- Health: 3500 hp\r
+- Speed: 10 m/s\r
+- Armor: 45 ap\r
+- Credits: 200\r
+\r
+- Damage: 100\r
+- Rate of Fire: 3\r
+- Crit Chance: 5%\r
+- Range: 45m\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 15%\r
+### Items drop table roll chance: 20%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 3 - 5 |\r
-| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 1 - 2 |\r
-| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 1 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 8 - 10 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 2 - 3 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 2 - 3 |\r
+| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 - 3 |\r
+| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 1 |\r
 \r
-### Abilities drop table roll chance: 5%\r
+### Abilities drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -37,7 +44,7 @@ A fast moving light vehicle used to quickly breach defensive lines. It’s unarm
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 5%\r
+### Site drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -53,11 +60,11 @@ A fast moving light vehicle used to quickly breach defensive lines. It’s unarm
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 5%\r
+### Skill points drop table roll chance: 15%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 5%\r
+### Rare items drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

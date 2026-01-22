@@ -1,24 +1,25 @@
 const e=`[Back](/enemies)\r
 \r
-# Fishing Vessel\r
+# Transport\r
 \r
-At first glance, this vessel appears to be an aging commercial fishing boat, but beneath its weathered hull lies a covert transport platform repurposed for military operations. Outfitted with reinforced holds and concealed compartments, it quietly moves personnel, ammunition, and field supplies along coastal routes without drawing enemy attention. Its unassuming profile allows it to blend in with civilian maritime traffic, making it a key asset for infiltration, rapid deployments, and supply runs in contested waters.\r
+A heavy transport truck used to move enemy troops into the battlefield. It’s slow and unarmed, but don’t underestimate it, each one carries a squad of soldiers ready to disembark when the truck is destroyed or reaches its destination. Left unchecked, they can flood your defenses with infantry reinforcements. Prioritize these vehicles before they get too close to your front lines.\r
 \r
 ## Stats\r
-- Health: 1200 hp\r
-- Speed: 9 m/s\r
+- Health: 800 hp\r
+- Speed: 8 m/s\r
 - Armor: 5 ap\r
-- Credits: 80\r
+- Credits: 75\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 15%\r
+### Items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 5 - 8 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 2 - 4 |\r
-| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 1 - 2 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 2 - 3 |\r
+| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 2 - 4 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 |\r
+| <img src="/items/rations_pack.png" title="Rations Pack" alt="Rations Pack" width="96px"> | Rations Pack | Misc | Military food supplies | 16.67% | 5 | 6 - 18 |\r
 \r
 ### Abilities drop table roll chance: 5%\r
 \r

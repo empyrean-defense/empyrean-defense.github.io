@@ -17,7 +17,7 @@ A sturdy combat ship built for firepower and endurance. Its reinforced hull lets
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 40%\r
+### Items drop table roll chance: 30%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

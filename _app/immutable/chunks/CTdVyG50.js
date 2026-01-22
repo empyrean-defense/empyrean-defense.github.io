@@ -1,24 +1,26 @@
 const e=`[Back](/enemies)\r
 \r
-# Soldier\r
+# Fishing Vessel\r
 \r
-The backbone of Zharos’ invading forces. A disciplined ground unit trained for quick assaults and holding positions. They move in squads, using numbers to pressure defenses and overwhelm lighter sites. While individually not too tough, their persistence can chip away at your front lines if ignored. Explosives and offensive area abilities make quick work of them, but in large waves, they’re a serious threat.\r
+At first glance, this vessel appears to be an aging commercial fishing boat, but beneath its weathered hull lies a covert transport platform repurposed for military operations. Outfitted with reinforced holds and concealed compartments, it quietly moves personnel, ammunition, and field supplies along coastal routes without drawing enemy attention. Its unassuming profile allows it to blend in with civilian maritime traffic, making it a key asset for infiltration, rapid deployments, and supply runs in contested waters.\r
 \r
 ## Stats\r
-- Health: 150 hp\r
-- Speed: 5 m/s\r
-- Armor: 0 ap\r
-- Credits: 5\r
+- Health: 1200 hp\r
+- Speed: 9 m/s\r
+- Armor: 5 ap\r
+- Credits: 80\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 15%\r
+### Items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/rations_pack.png" title="Rations Pack" alt="Rations Pack" width="96px"> | Rations Pack | Misc | Military food supplies | 16.67% | 5 | 1 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 5 - 8 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 2 - 4 |\r
+| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 1 - 2 |\r
 \r
-### Abilities drop table roll chance: 2.5%\r
+### Abilities drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -34,7 +36,7 @@ The backbone of Zharos’ invading forces. A disciplined ground unit trained for
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 2.5%\r
+### Site drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -50,11 +52,11 @@ The backbone of Zharos’ invading forces. A disciplined ground unit trained for
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 2.5%\r
+### Skill points drop table roll chance: 5%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 2.5%\r
+### Rare items drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

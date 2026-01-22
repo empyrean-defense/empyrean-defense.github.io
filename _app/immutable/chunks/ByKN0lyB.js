@@ -1,33 +1,27 @@
 const e=`[Back](/enemies)\r
 \r
-# APC\r
+# LATV\r
 \r
-The Armored Personnel Carrier combines troop transport with light offensive capability. Its reinforced armor allows it to endure heavy fire while deploying infantry onto the field. A mounted weapon provides steady suppressive fire, making the APC both a shield and a threat during an assault. Though slower than lighter vehicles, its resilience and ability to protect its passengers make it a high priority target when advancing with enemy forces.\r
+The Light All-Terrain Vehicle is a lightweight, unarmed unit built for speed and mobility. Designed to traverse rough terrain with ease, it’s often used for scouting or diversionary maneuvers. While it lacks offensive capability, its durability and pace allow it to soak up site fire or draw attention away from more dangerous units. Slowing or intercepting LATVs early prevents them from reaching critical positions.\r
 \r
 ## Stats\r
-- Health: 2500 hp\r
+- Health: 2000 hp\r
 - Speed: 12 m/s\r
-- Armor: 30 ap\r
-- Credits: 150\r
-\r
-- Damage: 30\r
-- Rate of Fire: 6\r
-- Crit Chance: 1%\r
-- Range: 40m\r
+- Armor: 20 ap\r
+- Credits: 100\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 30%\r
+### Items drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 7 - 12 |\r
-| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 3 - 5 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 3 - 5 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 2 - 3 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 2 - 4 |\r
-| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 1 - 2 |\r
-| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 16.67% | 100 | 2 - 5 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 6 - 8 |\r
+| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 1 - 2 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 1 - 2 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 - 2 |\r
+| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 |\r
 \r
 ### Abilities drop table roll chance: 10%\r
 \r
