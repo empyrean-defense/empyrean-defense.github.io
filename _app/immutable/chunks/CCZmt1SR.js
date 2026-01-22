@@ -43,13 +43,34 @@ Build, upgrade, and strategically manage your defense sites to survive each wave
 \r
 | Button | Action |\r
 |--------|--------------|\r
-| <div style="text-align:center;"><img src="/buttons/keyboard_w.png" width="32px" style="vertical-align: middle;"><img src="/buttons/keyboard_a.png" width="32px" style="vertical-align: middle;"><img src="/buttons/keyboard_s.png" width="32px" style="vertical-align: middle;"><img src="/buttons/keyboard_d.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/xbox_stick_l.png" width="32px" style="vertical-align: middle;"></div> | <div style="text-align:center;">Move</div> |\r
+| <div style="text-align:center;"><img src="/buttons/mouse_left.png" width="32px" style="vertical-align: middle;"> + <img src="/buttons/mouse_move.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/keyboard_w.png" width="32px" style="vertical-align: middle;"><img src="/buttons/keyboard_a.png" width="32px" style="vertical-align: middle;"><img src="/buttons/keyboard_s.png" width="32px" style="vertical-align: middle;"><img src="/buttons/keyboard_d.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/xbox_stick_l.png" width="32px" style="vertical-align: middle;"></div> | <div style="text-align:center;">Move</div> |\r
 | <div style="text-align:center;"><img src="/buttons/mouse_scroll_up.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/xbox_stick_l_press.png" width="32px" style="vertical-align: middle;"></div> | <div style="text-align:center;">Zoom In</div> |\r
 | <div style="text-align:center;"><img src="/buttons/mouse_scroll_down.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/xbox_stick_r_press.png" width="32px" style="vertical-align: middle;"></div> | <div style="text-align:center;">Zoom Out</div> |\r
 | <div style="text-align:center;"><img src="/buttons/mouse_right.png" width="32px" style="vertical-align: middle;"> + <img src="/buttons/mouse_move.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/xbox_stick_r.png" width="32px" style="vertical-align: middle;"></div> | <div style="text-align:center;">Rotate View</div> |\r
 | <div style="text-align:center;"><img src="/buttons/mouse_left.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/xbox_button_color_a.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/playstation_button_color_cross.png" width="32px" style="vertical-align: middle;"></div> | <div style="text-align:center;">Select / Confirm Use Ability</div> |\r
 | <div style="text-align:center;"><img src="/buttons/mouse_right.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/xbox_button_color_b.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/playstation_button_color_circle.png" width="32px" style="vertical-align: middle;"></div> | <div style="text-align:center;">Cancel / Deselect</div> |\r
 | <div style="text-align:center;"><img src="/buttons/keyboard_escape.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/xbox_button_menu.png" width="32px" style="vertical-align: middle;"> / <img src="/buttons/playstation4_button_options.png" width="32px" style="vertical-align: middle;"></div> | <div style="text-align:center;">Pause / Settings</div> |\r
+\r
+---\r
+\r
+## Tips for Playtesters\r
+\r
+- Use abilities to help get through more difficult waves. Assign abilities to hotkeys in the **Abilities Page**\r
+- Invest in skills as you level up in the **Skill Tree Page**\r
+- Use the **Supply Depot** to craft ammo and buy and sell resources, blueprints, and abilities\r
+- Assign newly unlocked sites to **Quick Menu** hotkeys for quick building\r
+- Try different tower targeting modes: *First*, *Closest*, and *Last*\r
+- Keep an eye on any objectives using the **Objectics Tracker** during a mission to ensure victory\r
+\r
+---\r
+\r
+## Reporting bugs or suggestions\r
+\r
+Use the following links to submit bug reports or suggestions\r
+\r
+[Report a bug](https://forms.gle/7XCT1TBe1oK3pukz6)\r
+\r
+[Have a suggestion?](https://forms.gle/yxnCe9CSjZoQhc4g9)\r
 \r
 ---\r
 \r
@@ -68,17 +89,6 @@ Follow these steps to export all logs and prepare to submit for a bug report:\r
 ![Logs Export Success](/playtest/logs_export_success.png)\r
 \r
 5. Navigate to this directory and upload to the bug report when submitting\r
-\r
----\r
-\r
-## Tips for Playtesters\r
-\r
-- Use abilities to help get through more difficult waves. Assign abilities to hotkeys in the **Abilities Page**\r
-- Invest in skills as you level up in the **Skill Tree Page**\r
-- Use the **Supply Depot** to craft ammo and buy and sell resources, blueprints, and abilities\r
-- Assign newly unlocked sites to **Quick Menu** hotkeys for quick building\r
-- Try different tower targeting modes: *First*, *Closest*, and *Last*\r
-- Keep an eye on any objectives using the **Objectics Tracker** during a mission to ensure victory\r
 \r
 ---\r
 \r
@@ -104,7 +114,7 @@ A: Playtest sessions are open for a limited time. Check announcements on Discord
 \r
 ---\r
 \r
-## Known Issues (v0.1.0)\r
+## Known Issues (v0.6.1)\r
 \r
 - Occasional performance drops with Soldier and APC units\r
 - Coin drops may clip through terrain on occassion\r
@@ -120,4 +130,4 @@ Get updates, share feedback, and connect with other players:  \r
 \r
 ---\r
 \r
-_Last updated: October 2025_`;export{e as default};
+_Last updated: January 2026_`;export{e as default};
