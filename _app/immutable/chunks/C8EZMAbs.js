@@ -1,33 +1,35 @@
 const e=`[Back](/enemies)\r
 \r
-# Attack Vessel\r
+# APC\r
 \r
-A fast, armored patrol boat equipped with a forward mounted turret for direct engagement along rivers and coastal routes. Designed for flexibility and speed, it excels at intercepting light threats and supporting land based operations with precision fire from offshore. Its compact profile and maneuverability make it ideal for rapid response missions and securing key waterways.\r
+The Armored Personnel Carrier combines troop transport with light offensive capability. Its reinforced armor allows it to endure heavy fire while deploying infantry onto the field. A mounted weapon provides steady suppressive fire, making the APC both a shield and a threat during an assault. Though slower than lighter vehicles, its resilience and ability to protect its passengers make it a high priority target when advancing with enemy forces.\r
 \r
 ## Stats\r
-- Health: 2000 hp\r
+- Health: 2500 hp\r
 - Speed: 12 m/s\r
-- Armor: 20 ap\r
-- Credits: 250\r
+- Armor: 30 ap\r
+- Credits: 150\r
 \r
 - Damage: 30\r
 - Rate of Fire: 6\r
 - Crit Chance: 1%\r
-- Range: 50m\r
+- Range: 40m\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 15%\r
+### Items drop table roll chance: 20%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 5 - 9 |\r
-| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 2 - 6 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 2 - 4 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 |\r
-| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 1 - 2 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 20 - 25 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 1 / 16 | 10 | 6 - 10 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 1 / 16 | 20 | 5 - 8 |\r
+| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 1 / 16 | 30 | 4 - 6 |\r
+| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 1 / 16 | 100 | 5 - 10 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 1 / 20 | 40 | 5 - 8 |\r
+| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 24 | 80 | 2 - 5 |\r
 \r
-### Abilities drop table roll chance: 15%\r
+### Abilities drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -43,7 +45,7 @@ A fast, armored patrol boat equipped with a forward mounted turret for direct en
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 15%\r
+### Site drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -59,11 +61,11 @@ A fast, armored patrol boat equipped with a forward mounted turret for direct en
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 15%\r
+### Skill points drop table roll chance: 10%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 15%\r
+### Rare items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

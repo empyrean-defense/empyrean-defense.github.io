@@ -1,26 +1,25 @@
 const e=`[Back](/enemies)\r
 \r
-# UAV\r
+# Utility Helicopter\r
 \r
-The UAV drone serves as an aerial reconnaissance unit, flying steadily over the battlefield to gather targeting data for advancing enemy forces. It doesn’t pose a direct threat, but its presence can improve the coordination and accuracy of following waves. With limited armor and average speed, these drones are easy targets for anti-air defenses.\r
+A versatile utility helicopter used for rapid troop transport, field resupply, and emergency extraction. Built for reliability and performance in demanding environments, it serves as a vital support platform across a range of operations. Though unarmed, its agility and payload capacity make it essential for maintaining mobility and logistical flow behind and near the front lines.\r
 \r
 ## Stats\r
-- Health: 1000 hp\r
-- Speed: 17 m/s\r
+- Health: 600 hp\r
+- Speed: 15 m/s\r
 - Armor: 5 ap\r
-- Credits: 100\r
+- Credits: 50\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 15%\r
+### Items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 2 - 4 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
-| <img src="/items/encrypted_data_drive.png" title="Encrypted Data Drive" alt="Encrypted Data Drive" width="96px"> | Encrypted Data Drive | Misc | Classified enemy intelligence | 1 / 12 | 200 | 1 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 10 - 15 |\r
+| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 1 / 16 | 30 | 2 - 3 |\r
 \r
-### Abilities drop table roll chance: 10%\r
+### Abilities drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -36,7 +35,7 @@ The UAV drone serves as an aerial reconnaissance unit, flying steadily over the 
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 10%\r
+### Site drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -52,11 +51,11 @@ The UAV drone serves as an aerial reconnaissance unit, flying steadily over the 
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 10%\r
+### Skill points drop table roll chance: 5%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 10%\r
+### Rare items drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

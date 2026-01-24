@@ -16,20 +16,24 @@ We're gearing up for an exciting 2026!\r
 \r
 ## Status\r
 \r
-## **v0.6.1 - QOL Improvements & Bug Fixes (January 17, 2026)**\r
+## **v0.6.2 - QOL Improvements & Bug Fixes (January 24, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
+#### New Features\r
+- Added left click and drag for easier mouse map panning\r
+- Added character popup when building first site and performing first upgrade on *Verdant Anchorage*\r
+\r
 #### Improvements\r
-- Reduced installation size from **~3GB** → **~1GB** \r
-- Improved Pillbox Site targeting accuracy by adjusting attack line-of-sight origin\r
-- Updated Site Menu descriptions for improved clarity\r
-- Updated mission and loading screen images\r
-- Added scrolling to armory description panel using controller right stick\r
+- Increased coin and item drop sizes and timers to make it easier to see and pick up\r
+- Increased hitpoints bars for sites and enemies and scale to distance to make it easier to see\r
+- Increased [Supply Drop](/abilities/supply_drop) crate size\r
 \r
 #### Balance Changes\r
-- Increased the amount of rockets given on *Graywake Reach* from **600** → **1000**\r
+- Reduced item drop rates and increased drop amounts for all enemies\r
 \r
 #### Bug Fixes\r
-- Fixed incorrect controller icon display for DualShock and DualSense controllers\r
-- Fixed an issue where attack range indicators could clip at extreme terrain elevation changes\r
-- Fixed an issue with confirming selected ability on roads, bridges, and water when using a controller`;export{e as default};
+- Prevent camera control and using abilities after level loads in but before intro conversation starts\r
+- Fixed an issue on controller with picking up coins and items under water\r
+\r
+#### Steam Integration\r
+- Added rich presence tokens for menu and mission status`;export{e as default};

@@ -1,25 +1,37 @@
 const e=`[Back](/enemies)\r
 \r
-# Utility Helicopter\r
+# Submarine\r
 \r
-A versatile utility helicopter used for rapid troop transport, field resupply, and emergency extraction. Built for reliability and performance in demanding environments, it serves as a vital support platform across a range of operations. Though unarmed, its agility and payload capacity make it essential for maintaining mobility and logistical flow behind and near the front lines.\r
+Travels beneath the waves, advancing unseen until it’s ready to strike. While slower than most naval units, its ability to submerge makes it difficult to target for short periods. Once it surfaces, it launches a powerful attack before diving again to escape. Though not heavily armored, its stealth tactics make it a serious threat if left unchallenged by anti submarine defenses.\r
 \r
 ## Stats\r
-- Health: 600 hp\r
-- Speed: 15 m/s\r
-- Armor: 5 ap\r
-- Credits: 50\r
+- Health: 3000 hp\r
+- Speed: 5 m/s\r
+- Armor: 20 ap\r
+- Credits: 200\r
+\r
+- Damage: 500\r
+- Rate of Fire: 1 / 6\r
+- Crit Chance: 25%\r
+- Range: 130m\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 10%\r
+### Items drop table roll chance: 25%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 2 - 4 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 30 - 50 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 1 / 16 | 10 | 20 - 25 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 1 / 16 | 20 | 10 - 15 |\r
+| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 1 / 16 | 30 | 10 - 15 |\r
+| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 1 / 16 | 100 | 15 - 20 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 1 / 20 | 40 | 5 - 10 |\r
+| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 24 | 80 | 3 - 5 |\r
+| <img src="/items/encrypted_data_drive.png" title="Encrypted Data Drive" alt="Encrypted Data Drive" width="96px"> | Encrypted Data Drive | Misc | Classified enemy intelligence | 1 / 24 | 200 | 2 - 3 |\r
+| <img src="/items/energy_cells.png" title="Energy Cells" alt="Energy Cells" width="96px"> | Energy Cells | Resource | State of the art energy cells used to power advanced technology | 1 / 24 | 500 | 3 - 5 |\r
 \r
-### Abilities drop table roll chance: 5%\r
+### Abilities drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -35,7 +47,7 @@ A versatile utility helicopter used for rapid troop transport, field resupply, a
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 5%\r
+### Site drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -51,11 +63,11 @@ A versatile utility helicopter used for rapid troop transport, field resupply, a
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 5%\r
+### Skill points drop table roll chance: 15%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 5%\r
+### Rare items drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

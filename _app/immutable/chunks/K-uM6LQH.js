@@ -1,26 +1,27 @@
 const e=`[Back](/enemies)\r
 \r
-# Tactical Support Jet\r
+# Transport\r
 \r
-Medium armored aircraft built for endurance. It flies low over the battlefield, drawing tower fire and absorbing hits that might otherwise target more vulnerable units. Its speed and durability make it difficult to bring down before it exits the field. Coordinated anti-air defenses are the best way to prevent these jets from slipping through unscathed.\r
+A heavy transport truck used to move enemy troops into the battlefield. It’s slow and unarmed, but don’t underestimate it, each one carries a squad of soldiers ready to disembark when the truck is destroyed or reaches its destination. Left unchecked, they can flood your defenses with infantry reinforcements. Prioritize these vehicles before they get too close to your front lines.\r
 \r
 ## Stats\r
-- Health: 2500 hp\r
-- Speed: 20 m/s\r
-- Armor: 20 ap\r
-- Credits: 375\r
+- Health: 800 hp\r
+- Speed: 8 m/s\r
+- Armor: 5 ap\r
+- Credits: 75\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 25%\r
+### Items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 3 - 5 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 2 - 4 |\r
-| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 16.67% | 100 | 1 - 2 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 10 - 15 |\r
+| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 1 / 12 | 5 | 5 - 10 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 1 / 16 | 20 | 3 - 5 |\r
+| <img src="/items/rations_pack.png" title="Rations Pack" alt="Rations Pack" width="96px"> | Rations Pack | Misc | Military food supplies | 1 / 12 | 5 | 30 - 40 |\r
 \r
-### Abilities drop table roll chance: 25%\r
+### Abilities drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -36,7 +37,7 @@ Medium armored aircraft built for endurance. It flies low over the battlefield, 
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 25%\r
+### Site drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -52,11 +53,11 @@ Medium armored aircraft built for endurance. It flies low over the battlefield, 
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 25%\r
+### Skill points drop table roll chance: 5%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 25%\r
+### Rare items drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

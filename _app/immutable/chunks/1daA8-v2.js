@@ -1,35 +1,24 @@
 const e=`[Back](/enemies)\r
 \r
-# MLRS\r
+# Soldier\r
 \r
-The Multiple Launch Rocket System is a mobile rocket platform that unleashes devastating barrages once it advances into range. Though heavily armed, it moves slowly and is lightly armored, making it vulnerable during its approach. If allowed to fire, its rockets can damage multiple sites at once, crippling clustered defenses. Taking it out before it reaches firing distance should be a top priority for any commander.\r
+The backbone of Zharos’ invading forces. A disciplined ground unit trained for quick assaults and holding positions. They move in squads, using numbers to pressure defenses and overwhelm lighter sites. While individually not too tough, their persistence can chip away at your front lines if ignored. Explosives and offensive area abilities make quick work of them, but in large waves, they’re a serious threat.\r
 \r
 ## Stats\r
-- Health: 1800 hp\r
-- Speed: 8 m/s\r
-- Armor: 15 ap\r
-- Credits: 400\r
-\r
-- Damage: 250\r
-- Rate of Fire: 1 / 2\r
-- Crit Chance: 10%\r
-- Range: 80m\r
+- Health: 150 hp\r
+- Speed: 5 m/s\r
+- Armor: 0 ap\r
+- Credits: 5\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 40%\r
+### Items drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 7 - 12 |\r
-| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 3 - 5 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 3 - 5 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 3 - 4 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 2 - 4 |\r
-| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 1 - 2 |\r
-| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 16.67% | 100 | 3 - 6 |\r
+| <img src="/items/rations_pack.png" title="Rations Pack" alt="Rations Pack" width="96px"> | Rations Pack | Misc | Military food supplies | 1 / 12 | 5 | 3 - 5 |\r
 \r
-### Abilities drop table roll chance: 25%\r
+### Abilities drop table roll chance: 2.5%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -45,7 +34,7 @@ The Multiple Launch Rocket System is a mobile rocket platform that unleashes dev
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 25%\r
+### Site drop table roll chance: 2.5%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -61,11 +50,11 @@ The Multiple Launch Rocket System is a mobile rocket platform that unleashes dev
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 25%\r
+### Skill points drop table roll chance: 2.5%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 25%\r
+### Rare items drop table roll chance: 2.5%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

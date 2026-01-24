@@ -7,25 +7,50 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/3.oOcI5n1d.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.Lto0Dd7p.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CF_7kIHx.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Car0Q_p7.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/cd7ehDeb.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.OpvQ5vjL.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.C0kpz-wD.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/13.DcztU7n1.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/13.BOx4nC1m.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents"><!--[--><!--[--><!----><main class="svelte-rmkusp"><nav class="sidebar svelte-137bbzy"><div class="mobile-bar svelte-137bbzy"><img class="logo svelte-137bbzy" src="/logo.png" alt="Empyrean Defense"> <button class="menu-btn svelte-137bbzy" type="button">Menu</button></div> <div class="desktop-header svelte-137bbzy"><br> <img src="/logo.png" title="Empyrean Defense" alt="Empyrean Defense" width="100%"> <br> <div class="logo_text svelte-137bbzy"><b>WIKI</b></div> <hr></div> <div class="links svelte-137bbzy"><!--[--><a href="/" class="svelte-137bbzy">Home</a><a href="/playtest/" class="svelte-137bbzy">Playtest</a><a href="/release-notes/" class="svelte-137bbzy">Release Notes</a><!--]--> <hr> <!--[--><a href="/abilities/" class="svelte-137bbzy">Abilities</a><a href="/achievements/" class="svelte-137bbzy">Achievements</a><a href="/ammunition/" class="svelte-137bbzy">Ammunition</a><a href="/enemies/" class="svelte-137bbzy">Enemies</a><a href="/items/" class="svelte-137bbzy">Items</a><a href="/ranks/" class="svelte-137bbzy">Ranks</a><a href="/sites/" class="svelte-137bbzy">Sites</a><a href="/skills/" class="svelte-137bbzy">Skills</a><!--]--></div></nav><!----> <div class="content svelte-rmkusp"><!----><!----><article class="markdown-body svelte-1186yb2"><div><!----><h1>Release Notes</h1>
-<h2><strong>v0.6.1 - QOL Improvements &amp; Bug Fixes (January 17, 2026)</strong></h2>
+<h2><strong>v0.6.2 - QOL Improvements &amp; Bug Fixes (January 24, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
+<h4>New Features</h4>
+<ul>
+<li>Added left click and drag for easier mouse map panning</li>
+<li>Added character popup when building first site and performing first upgrade on <em>Verdant Anchorage</em></li>
+</ul>
+<h4>Improvements</h4>
+<ul>
+<li>Increased coin/item drop sizes and timers to make it easier to see and pick up</li>
+<li>Increased hitpoints bars for sites and enemies and scale to distance to make it easier to see</li>
+<li>Increased <a href="/abilities/supply_drop">Supply Drop</a> crate size</li>
+</ul>
+<h4>Balance Changes</h4>
+<ul>
+<li>Reduced item drop rates and increased drop amounts for all enemies</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+<li>Prevent camera control and using abilities after level loads in but before intro conversation starts</li>
+<li>Fixed an issue on controller with picking up coins and items under water</li>
+</ul>
+<h4>Steam Integration</h4>
+<ul>
+<li>Added rich presence tokens for menu and mission status</li>
+</ul>
+<h2><strong>v0.6.1 - QOL Improvements &amp; Bug Fixes (January 17, 2026)</strong></h2>
 <h4>Improvements</h4>
 <ul>
 <li>Reduced installation size from <strong>~3GB</strong> → <strong>~1GB</strong> </li>
@@ -223,15 +248,15 @@
 			
 			<script>
 				{
-					__sveltekit_cylg7p = {
+					__sveltekit_1v52x03 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.Lto0Dd7p.js"),
-						import("./_app/immutable/entry/app.OpvQ5vjL.js")
+						import("./_app/immutable/entry/start.Car0Q_p7.js"),
+						import("./_app/immutable/entry/app.C0kpz-wD.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 13],

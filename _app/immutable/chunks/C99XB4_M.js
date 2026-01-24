@@ -1,36 +1,26 @@
 const e=`[Back](/enemies)\r
 \r
-# Patrol Vessel\r
+# Fishing Vessel\r
 \r
-A sturdy combat ship built for firepower and endurance. Its reinforced hull lets it withstand heavy fire while its dual cannons tear into coastal defenses. Though not as massive as a battleship, its mix of mobility and firepower makes it one of the most dangerous naval units in the enemy fleet. Concentrated or high impact attacks are the best way to bring it down before it closes in on your defenses.\r
+At first glance, this vessel appears to be an aging commercial fishing boat, but beneath its weathered hull lies a covert transport platform repurposed for military operations. Outfitted with reinforced holds and concealed compartments, it quietly moves personnel, ammunition, and field supplies along coastal routes without drawing enemy attention. Its unassuming profile allows it to blend in with civilian maritime traffic, making it a key asset for infiltration, rapid deployments, and supply runs in contested waters.\r
 \r
 ## Stats\r
-- Health: 4000 hp\r
-- Speed: 8 m/s\r
-- Armor: 50 ap\r
-- Credits: 550\r
-\r
-- Damage: 150\r
-- Rate of Fire: 1\r
-- Crit Chance: 10%\r
-- Range: 60m\r
+- Health: 1200 hp\r
+- Speed: 9 m/s\r
+- Armor: 5 ap\r
+- Credits: 80\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 30%\r
+### Items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 12 - 18 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 4 - 6 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 2 - 4 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 4 - 8 |\r
-| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 4 - 8 |\r
-| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 16.67% | 100 | 3 - 7 |\r
-| <img src="/items/encrypted_data_drive.png" title="Encrypted Data Drive" alt="Encrypted Data Drive" width="96px"> | Encrypted Data Drive | Misc | Classified enemy intelligence | 1 / 12 | 200 | 1 |\r
-| <img src="/items/energy_cells.png" title="Energy Cells" alt="Energy Cells" width="96px"> | Energy Cells | Resource | State of the art energy cells used to power advanced technology | 1 / 24 | 500 | 1 - 2 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 5 - 8 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 1 / 16 | 20 | 2 - 4 |\r
+| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 24 | 80 | 1 |\r
 \r
-### Abilities drop table roll chance: 50%\r
+### Abilities drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -46,7 +36,7 @@ A sturdy combat ship built for firepower and endurance. Its reinforced hull lets
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 50%\r
+### Site drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -62,11 +52,11 @@ A sturdy combat ship built for firepower and endurance. Its reinforced hull lets
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 50%\r
+### Skill points drop table roll chance: 5%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 50%\r
+### Rare items drop table roll chance: 5%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

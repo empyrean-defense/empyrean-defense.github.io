@@ -1,27 +1,24 @@
 const e=`[Back](/enemies)\r
 \r
-# Humvee\r
+# UAV\r
 \r
-A durable, all terrain vehicle designed for reliability over raw speed. It carries no weapons but features reinforced armor, allowing it to absorb moderate damage before breaking down. Often deployed alongside infantry or heavier transports, its primary role is to shield advancing units and draw site fire. Though not an immediate threat, focusing a Humvee can let more dangerous enemies slip through unchallenged.\r
+The UAV drone serves as an aerial reconnaissance unit, flying steadily over the battlefield to gather targeting data for advancing enemy forces. It doesn’t pose a direct threat, but its presence can improve the coordination and accuracy of following waves. With limited armor and average speed, these drones are easy targets for anti-air defenses.\r
 \r
 ## Stats\r
-- Health: 1200 hp\r
-- Speed: 13 m/s\r
-- Armor: 10 ap\r
-- Credits: 80\r
+- Health: 1000 hp\r
+- Speed: 17 m/s\r
+- Armor: 5 ap\r
+- Credits: 100\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 10%\r
+### Items drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 4 - 6 |\r
-| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 1 - 2 |\r
-| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 1 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 - 2 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 - 2 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 10 - 20 |\r
+| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 1 / 16 | 30 | 3 - 5 |\r
+| <img src="/items/encrypted_data_drive.png" title="Encrypted Data Drive" alt="Encrypted Data Drive" width="96px"> | Encrypted Data Drive | Misc | Classified enemy intelligence | 1 / 24 | 200 | 1 |\r
 \r
 ### Abilities drop table roll chance: 10%\r
 \r

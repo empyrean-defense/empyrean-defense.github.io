@@ -1,32 +1,27 @@
 const e=`[Back](/enemies)\r
 \r
-# Fighter Jet\r
+# LCVP\r
 \r
-A high speed combat aircraft built for precision strikes. It sweeps across the battlefield at top speed, unleashing missile salvos that can devastate exposed defenses. Though lightly armored, its velocity makes it difficult to destroy before it completes its attack run. Strong anti-air coverage and timing are key to stopping these jets before they deal serious damage.\r
+The Landing Craft Vehicle Personnel is a compact landing craft built to deliver infantry and vehicles directly to coastal defenses. It’s slow moving and lightly armored, and its ramp allows it to quickly unload soldiers once it reaches land. While not a direct threat itself, each one that slips through can release a wave of troops. Take it down early to keep the shoreline secure.\r
 \r
 ## Stats\r
 - Health: 2000 hp\r
-- Speed: 32 m/s\r
-- Armor: 15 ap\r
-- Credits: 500\r
-\r
-- Damage: 200\r
-- Rate of Fire: 1 / 5\r
-- Crit Chance: 5%\r
-- Range: 150m\r
+- Speed: 10 m/s\r
+- Armor: 30 ap\r
+- Credits: 200\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 40%\r
+### Items drop table roll chance: 15%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 6 - 8 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 4 - 6 |\r
-| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 16.67% | 100 | 2 - 3 |\r
-| <img src="/items/energy_cells.png" title="Energy Cells" alt="Energy Cells" width="96px"> | Energy Cells | Resource | State of the art energy cells used to power advanced technology | 1 / 24 | 500 | 1 - 2 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 30 - 50 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 1 / 16 | 20 | 3 - 5 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 1 / 20 | 40 | 3 - 5 |\r
+| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 24 | 80 | 1 - 2 |\r
 \r
-### Abilities drop table roll chance: 50%\r
+### Abilities drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -42,7 +37,7 @@ A high speed combat aircraft built for precision strikes. It sweeps across the b
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 50%\r
+### Site drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -58,11 +53,11 @@ A high speed combat aircraft built for precision strikes. It sweeps across the b
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 50%\r
+### Skill points drop table roll chance: 10%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 50%\r
+### Rare items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

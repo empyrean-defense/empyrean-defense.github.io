@@ -1,29 +1,37 @@
 const e=`[Back](/enemies)\r
 \r
-# LATV\r
+# Patrol Vessel\r
 \r
-The Light All-Terrain Vehicle is a lightweight, unarmed unit built for speed and mobility. Designed to traverse rough terrain with ease, it’s often used for scouting or diversionary maneuvers. While it lacks offensive capability, its durability and pace allow it to soak up site fire or draw attention away from more dangerous units. Slowing or intercepting LATVs early prevents them from reaching critical positions.\r
+A sturdy combat ship built for firepower and endurance. Its reinforced hull lets it withstand heavy fire while its dual cannons tear into coastal defenses. Though not as massive as a battleship, its mix of mobility and firepower makes it one of the most dangerous naval units in the enemy fleet. Concentrated or high impact attacks are the best way to bring it down before it closes in on your defenses.\r
 \r
 ## Stats\r
-- Health: 2000 hp\r
-- Speed: 12 m/s\r
-- Armor: 20 ap\r
-- Credits: 100\r
+- Health: 4000 hp\r
+- Speed: 8 m/s\r
+- Armor: 50 ap\r
+- Credits: 550\r
+\r
+- Damage: 150\r
+- Rate of Fire: 1\r
+- Crit Chance: 10%\r
+- Range: 60m\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 15%\r
+### Items drop table roll chance: 30%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 6 - 8 |\r
-| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 16.67% | 5 | 1 - 2 |\r
-| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 1 - 2 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 1 - 2 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 1 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 80 - 120 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 1 / 16 | 10 | 30 - 50 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 1 / 16 | 20 | 20 - 30 |\r
+| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 1 / 16 | 30 | 20 - 30 |\r
+| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 1 / 16 | 100 | 20 - 30 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 1 / 20 | 40 | 20 - 30 |\r
+| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 24 | 80 | 5 - 10 |\r
+| <img src="/items/encrypted_data_drive.png" title="Encrypted Data Drive" alt="Encrypted Data Drive" width="96px"> | Encrypted Data Drive | Misc | Classified enemy intelligence | 1 / 24 | 200 | 3 - 5 |\r
+| <img src="/items/energy_cells.png" title="Energy Cells" alt="Energy Cells" width="96px"> | Energy Cells | Resource | State of the art energy cells used to power advanced technology | 1 / 24 | 500 | 5 - 8 |\r
 \r
-### Abilities drop table roll chance: 10%\r
+### Abilities drop table roll chance: 50%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -39,7 +47,7 @@ The Light All-Terrain Vehicle is a lightweight, unarmed unit built for speed and
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 10%\r
+### Site drop table roll chance: 50%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -55,11 +63,11 @@ The Light All-Terrain Vehicle is a lightweight, unarmed unit built for speed and
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 10%\r
+### Skill points drop table roll chance: 50%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 10%\r
+### Rare items drop table roll chance: 50%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

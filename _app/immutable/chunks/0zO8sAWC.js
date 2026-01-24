@@ -1,24 +1,34 @@
 const e=`[Back](/enemies)\r
 \r
-# Soldier\r
+# Fighter Jet\r
 \r
-The backbone of Zharos’ invading forces. A disciplined ground unit trained for quick assaults and holding positions. They move in squads, using numbers to pressure defenses and overwhelm lighter sites. While individually not too tough, their persistence can chip away at your front lines if ignored. Explosives and offensive area abilities make quick work of them, but in large waves, they’re a serious threat.\r
+A high speed combat aircraft built for precision strikes. It sweeps across the battlefield at top speed, unleashing missile salvos that can devastate exposed defenses. Though lightly armored, its velocity makes it difficult to destroy before it completes its attack run. Strong anti-air coverage and timing are key to stopping these jets before they deal serious damage.\r
 \r
 ## Stats\r
-- Health: 150 hp\r
-- Speed: 5 m/s\r
-- Armor: 0 ap\r
-- Credits: 5\r
+- Health: 2000 hp\r
+- Speed: 32 m/s\r
+- Armor: 15 ap\r
+- Credits: 500\r
+\r
+- Damage: 200\r
+- Rate of Fire: 1 / 5\r
+- Crit Chance: 5%\r
+- Range: 150m\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 5%\r
+### Items drop table roll chance: 40%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/rations_pack.png" title="Rations Pack" alt="Rations Pack" width="96px"> | Rations Pack | Misc | Military food supplies | 16.67% | 5 | 1 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 30 - 50 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 1 / 16 | 10 | 20 - 25 |\r
+| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 1 / 16 | 30 | 10 - 15 |\r
+| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 1 / 16 | 100 | 15 - 20 |\r
+| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 1 / 20 | 40 | 5 - 10 |\r
+| <img src="/items/energy_cells.png" title="Energy Cells" alt="Energy Cells" width="96px"> | Energy Cells | Resource | State of the art energy cells used to power advanced technology | 1 / 24 | 500 | 3 - 5 |\r
 \r
-### Abilities drop table roll chance: 2.5%\r
+### Abilities drop table roll chance: 50%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -34,7 +44,7 @@ The backbone of Zharos’ invading forces. A disciplined ground unit trained for
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 2.5%\r
+### Site drop table roll chance: 50%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -50,11 +60,11 @@ The backbone of Zharos’ invading forces. A disciplined ground unit trained for
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 2.5%\r
+### Skill points drop table roll chance: 50%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 2.5%\r
+### Rare items drop table roll chance: 50%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r

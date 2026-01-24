@@ -1,35 +1,27 @@
 const e=`[Back](/enemies)\r
 \r
-# Tank\r
+# Humvee\r
 \r
-Serves as the Zharos' main armored powerhouse. Its reinforced plating shrugs off most incoming fire, and its main cannon can devastate defensive positions if left unchecked. While slow moving, it absorbs huge amounts of damage and draws attention away from supporting units. When one appears on the field, it often signals the start of a major offensive. Focus all heavy firepower to bring it down before it reaches your core defenses.\r
+A durable, all terrain vehicle designed for reliability over raw speed. It carries no weapons but features reinforced armor, allowing it to absorb moderate damage before breaking down. Often deployed alongside infantry or heavier transports, its primary role is to shield advancing units and draw site fire. Though not an immediate threat, focusing a Humvee can let more dangerous enemies slip through unchallenged.\r
 \r
 ## Stats\r
-- Health: 4000 hp\r
-- Speed: 9 m/s\r
-- Armor: 50 ap\r
-- Credits: 300\r
-\r
-- Damage: 150\r
-- Rate of Fire: 1\r
-- Crit Chance: 10%\r
-- Range: 50m\r
+- Health: 1200 hp\r
+- Speed: 13 m/s\r
+- Armor: 10 ap\r
+- Credits: 80\r
 \r
 ## Drops\r
 \r
-### Items drop table roll chance: 30%\r
+### Items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
-| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 16.67% | 5 | 7 - 12 |\r
-| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 12.5% | 10 | 3 - 5 |\r
-| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 12.5% | 20 | 3 - 5 |\r
-| <img src="/items/electronics.png" title="Electronics" alt="Electronics" width="96px"> | Electronics | Resource | Circuit boards, wires, and components salvaged from destroyed enemies | 12.5% | 30 | 1 - 2 |\r
-| <img src="/items/heavy_alloy.png" title="Heavy Alloy" alt="Heavy Alloy" width="96px"> | Heavy Alloy | Resource | A reinforced metal blend designed for high durability ammunitions and armor piercing shells | 10% | 40 | 2 - 4 |\r
-| <img src="/items/oil_barrel.png" title="Oil Barrel" alt="Oil Barrel" width="96px"> | Oil Barrel | Resource | A heavy barrel filled with crude oil | 1 / 12 | 80 | 2 - 3 |\r
-| <img src="/items/explosives.png" title="Explosives" alt="Explosives" width="96px"> | Explosives | Resource | Assorted explosives designed for advanced weaponry | 16.67% | 100 | 1 - 3 |\r
+| <img src="/items/scrap_metal.png" title="Scrap Metal" alt="Scrap Metal" width="96px"> | Scrap Metal | Resource | An assortment of salvaged metal scraps | 1 / 12 | 5 | 8 - 12 |\r
+| <img src="/items/tire_stack.png" title="Tire Stack" alt="Tire Stack" width="96px"> | Tire Stack | Misc | A collection of salvaged rubber tires | 1 / 12 | 5 | 4 - 6 |\r
+| <img src="/items/propellant.png" title="Propellant" alt="Propellant" width="96px"> | Propellant | Resource | A combustible substance used to launch projectiles and fuel explosive ammunition | 1 / 16 | 10 | 2 - 4 |\r
+| <img src="/items/engine_components.png" title="Engine Components" alt="Engine Components" width="96px"> | Engine Components | Resource | Essential engine parts for powering vehicles and vessels | 1 / 16 | 20 | 2 - 4 |\r
 \r
-### Abilities drop table roll chance: 25%\r
+### Abilities drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Tier | Description | Effect | Rank Required | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -45,7 +37,7 @@ Serves as the Zharos' main armored powerhouse. Its reinforced plating shrugs off
 | <a href="/abilities/ion_beam"><img src="/abilities/IonBeam_256.png" title="Ion Beam" alt="Ion Beam" width="96px"></a> | <a href="/abilities/ion_beam">Ion Beam</a> | Attack | III | Fires a powerful ion beam from an orbital cannon, dealing massive instant damage to enemies | Area | <img src="/ranks/9_shadow_256.png" title="General I (10)" alt="General I (10)" width="96px"> | 1 / 8192 |\r
 \r
 \r
-### Site drop table roll chance: 25%\r
+### Site drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Tier | Description | Ammunition | Drop Chance |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
@@ -61,11 +53,11 @@ Serves as the Zharos' main armored powerhouse. Its reinforced plating shrugs off
 | <a href="/sites/refinery"><img src="/sites/Refinery_256.png" title="Refinery" alt="Financial Hub" width="96px"></a> | <a href="/sites/refinery">Refinery</a> | Economy | I | A basic refinery used to produce refined oil barrels and propellant used to craft specialized ammunition | N/A | 1 / 1024 |\r
 | <a href="/sites/fabrication_facility"><img src="/sites/FabricationFacility_256.png" title="Fabrication Facility" alt="Fabrication Facility" width="96px"></a> | <a href="/sites/fabrication_facility">Fabrication Facility</a> | Economy | II | A mid tier manufacturing site that generates advanced supplies and components | N/A | 1 / 1024 |\r
 \r
-### Skill points drop table roll chance: 25%\r
+### Skill points drop table roll chance: 10%\r
 \r
 Skill point: 1 / 4096\r
 \r
-### Rare items drop table roll chance: 25%\r
+### Rare items drop table roll chance: 10%\r
 \r
 | Icon | Name | Type | Description | Drop Chance | Value | Amount |\r
 |:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|:----------:|\r
