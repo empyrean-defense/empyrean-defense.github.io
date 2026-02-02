@@ -7,18 +7,18 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/2.C769Jem9.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.Car0Q_p7.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/cd7ehDeb.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Lq4l0lRU.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DQo883KE.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.C0kpz-wD.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.D2fw3F-u.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.8YYYS0_Y.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.tcFJRQh4.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
@@ -36,45 +36,84 @@
 <li><strong>Early Access Release</strong>: Empyrean Defense launches into Early Access on <strong>July 23, 2026</strong>.</li>
 </ul>
 <h2>Status</h2>
-<h2><strong>v0.6.2 - QOL Improvements &amp; Bug Fixes (January 24, 2026)</strong></h2>
+<h2><strong>v0.7.0 - Steam Deck Support, QoL Improvements &amp; Bug Fixes (February 1, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
 <h4>New Features</h4>
 <ul>
-<li>Added left click and drag for easier mouse map panning</li>
-<li>Added character popup when building first site and performing first upgrade on <em>Verdant Anchorage</em></li>
+<li>Added sound effects for skill up and reset skills actions in the skill tree</li>
+<li>Added a red glow to site HP bars when below 30% HP</li>
+<li>Added on-screen arrow indicators for:<ul>
+<li>Sites below 30% HP</li>
+<li>Sites that have run out of ammo</li>
+<li>Landed Supply Drops</li>
+<li>Incoming boss units</li>
+<li>Rare item drops</li>
+</ul>
+</li>
+<li>Added a side button on the abilities bar to toggle <em>Night Vision Goggles</em> for keyboard &amp; mouse users
+<em>(the toggle setting is still available in Settings)</em></li>
+<li>Renamed <em>Greenwood Shoreline</em> to <em>Brightwood Bay</em></li>
 </ul>
 <h4>Improvements</h4>
 <ul>
-<li>Increased coin and item drop sizes and timers to make it easier to see and pick up</li>
-<li>Increased hitpoints bars for sites and enemies and scale to distance to make it easier to see</li>
-<li>Increased <a href="/abilities/supply_drop">Supply Drop</a> crate size</li>
+<li>Split Display settings out of cloud saves and keep them user/device specific</li>
+<li>Removed redundant item descriptions from bottom pickup notifications</li>
+<li>Updated interface action font to better match the game&#39;s theme</li>
+<li>Improved clarity of Power Meter used/available text indicators</li>
+<li>Dynamically position Objectives and Enemy Info panels based on UI scale and panel visibility</li>
+<li>Standardized sizes for enemy damage numbers and notification popups</li>
+<li>Display site HP bars above other objects by default, with a new toggle option in Settings</li>
+<li>Display next wave panels above other objects</li>
+<li>Added scrolling support to the mission description panel on the realm map</li>
+<li>Added support for holding the D-pad to quickly adjust market item quantities when using a controller</li>
+<li>Added <em>PS5</em>, <em>Steam</em>, and <em>Steam Deck</em> controller glyphs</li>
+<li>Improved Steam Input API handling to better identify connected controller types</li>
+<li>Increased the maximum value of <em>UI Scale</em> setting</li>
+<li>Increased UI component and font sizes across the game for better readability</li>
+<li>Removed market item quantity text input boxes on <em>Steam Deck</em></li>
+<li>Slightly increased the size of quick action menu icons</li>
+<li>Allow B / O / Esc to exit pause menu</li>
 </ul>
 <h4>Balance Changes</h4>
 <ul>
-<li>Reduced item drop rates and increased drop amounts for all enemies</li>
+<li>Removed the final two LATVs from the boss wave on <em>Sidewinder Pass</em></li>
+<li>Increased Rocket Post base damage from <strong>200</strong> -&gt; <strong>210</strong></li>
+<li>Reduced item drop amounts from <a href="/abilities/supply_drop">Adv. Supply Drop</a></li>
+<li>Increased the cost of skill points in the market from <strong>5,000</strong> → <strong>10,000</strong></li>
+<li>Reduced the base cost of several power and economy sites:<ul>
+<li>Solar Array (<strong>300</strong> → <strong>200</strong>)</li>
+<li>Wind Turbine (<strong>600</strong> → <strong>400</strong>)</li>
+<li>Power Plant (<strong>1200</strong> → <strong>800</strong>)</li>
+<li>Fabrication Facility (<strong>1600</strong> → <strong>1200</strong>)</li>
+</ul>
+</li>
 </ul>
 <h4>Bug Fixes</h4>
 <ul>
-<li>Prevent camera control and using abilities after level loads in but before intro conversation starts</li>
-<li>Fixed an issue on controller with picking up coins and items under water</li>
-</ul>
-<h4>Steam Integration</h4>
-<ul>
-<li>Added rich presence tokens for menu and mission status</li>
+<li>Fixed an issue with the Inspect icon when inspecting items using a controller</li>
+<li>Fixed multiple controller focus issues across all menu pages</li>
+<li>Prevented pausing before mission intro dialogue appears</li>
+<li>Fixed a performance issue related to in-game cursor icon updates</li>
+<li>Fixed an issue where selling a Power site right before taking damage could cause double power loss</li>
+<li>Fixed mouse rotation continuing after pausing and unpausing</li>
+<li>Fixed centering issues with the quick action menu when using a controller</li>
+<li>Fixed an issue when binding abilities or quick action slots to <em>Reset to Defaults</em> button</li>
+<li>Fixed tooltips appearing behind initial tutorial dialogues on menu pages</li>
+<li>Fixed an issue where market item quantities could be adjusted via D-pad even when the quantity was 1</li>
 </ul>
 <!----></div></article><!----><!----></div></main> <footer class="svelte-rmkusp"><a href="https://nighthawk-studios.com/" target="_blank" rel="noopener" class="svelte-rmkusp">© 2026 Nighthawk Studios LLC</a> · <a href="https://store.steampowered.com/app/3575690/Empyrean_Defense/" target="_blank" rel="noopener" class="svelte-rmkusp">Steam</a> · <a href="https://www.instagram.com/nighthawk.studios/" target="_blank" rel="noopener" class="svelte-rmkusp">Instagram</a></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_1v52x03 = {
+					__sveltekit_m42hw1 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.Car0Q_p7.js"),
-						import("./_app/immutable/entry/app.C0kpz-wD.js")
+						import("./_app/immutable/entry/start.Lq4l0lRU.js"),
+						import("./_app/immutable/entry/app.D2fw3F-u.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],

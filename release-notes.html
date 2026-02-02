@@ -7,25 +7,89 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/3.oOcI5n1d.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.Car0Q_p7.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/cd7ehDeb.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Lq4l0lRU.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DQo883KE.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.C0kpz-wD.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.D2fw3F-u.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/13.BOx4nC1m.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/13.BX8YlqOR.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents"><!--[--><!--[--><!----><main class="svelte-rmkusp"><nav class="sidebar svelte-137bbzy"><div class="mobile-bar svelte-137bbzy"><img class="logo svelte-137bbzy" src="/logo.png" alt="Empyrean Defense"> <button class="menu-btn svelte-137bbzy" type="button">Menu</button></div> <div class="desktop-header svelte-137bbzy"><br> <img src="/logo.png" title="Empyrean Defense" alt="Empyrean Defense" width="100%"> <br> <div class="logo_text svelte-137bbzy"><b>WIKI</b></div> <hr></div> <div class="links svelte-137bbzy"><!--[--><a href="/" class="svelte-137bbzy">Home</a><a href="/playtest/" class="svelte-137bbzy">Playtest</a><a href="/release-notes/" class="svelte-137bbzy">Release Notes</a><!--]--> <hr> <!--[--><a href="/abilities/" class="svelte-137bbzy">Abilities</a><a href="/achievements/" class="svelte-137bbzy">Achievements</a><a href="/ammunition/" class="svelte-137bbzy">Ammunition</a><a href="/enemies/" class="svelte-137bbzy">Enemies</a><a href="/items/" class="svelte-137bbzy">Items</a><a href="/ranks/" class="svelte-137bbzy">Ranks</a><a href="/sites/" class="svelte-137bbzy">Sites</a><a href="/skills/" class="svelte-137bbzy">Skills</a><!--]--></div></nav><!----> <div class="content svelte-rmkusp"><!----><!----><article class="markdown-body svelte-1186yb2"><div><!----><h1>Release Notes</h1>
-<h2><strong>v0.6.2 - QOL Improvements &amp; Bug Fixes (January 24, 2026)</strong></h2>
+<h2><strong>v0.7.0 - Steam Deck Support, QoL Improvements &amp; Bug Fixes (February 1, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
+<h4>New Features</h4>
+<ul>
+<li>Added sound effects for skill up and reset skills actions in the skill tree</li>
+<li>Added a red glow to site HP bars when below 30% HP</li>
+<li>Added on-screen arrow indicators for:<ul>
+<li>Sites below 30% HP</li>
+<li>Sites that have run out of ammo</li>
+<li>Landed Supply Drops</li>
+<li>Incoming boss units</li>
+<li>Rare item drops</li>
+</ul>
+</li>
+<li>Added a side button on the abilities bar to toggle <em>Night Vision Goggles</em> for keyboard &amp; mouse users
+<em>(the toggle setting is still available in Settings)</em></li>
+<li>Renamed <em>Greenwood Shoreline</em> to <em>Brightwood Bay</em></li>
+</ul>
+<h4>Improvements</h4>
+<ul>
+<li>Split Display settings out of cloud saves and keep them user/device specific</li>
+<li>Removed redundant item descriptions from bottom pickup notifications</li>
+<li>Updated interface action font to better match the game&#39;s theme</li>
+<li>Improved clarity of Power Meter used/available text indicators</li>
+<li>Dynamically position Objectives and Enemy Info panels based on UI scale and panel visibility</li>
+<li>Standardized sizes for enemy damage numbers and notification popups</li>
+<li>Display site HP bars above other objects by default, with a new toggle option in Settings</li>
+<li>Display next wave panels above other objects</li>
+<li>Added scrolling support to the mission description panel on the realm map</li>
+<li>Added support for holding the D-pad to quickly adjust market item quantities when using a controller</li>
+<li>Added <em>PS5</em>, <em>Steam</em>, and <em>Steam Deck</em> controller glyphs</li>
+<li>Improved Steam Input API handling to better identify connected controller types</li>
+<li>Increased the maximum value of <em>UI Scale</em> setting</li>
+<li>Increased UI component and font sizes across the game for better readability</li>
+<li>Removed market item quantity text input boxes on <em>Steam Deck</em></li>
+<li>Slightly increased the size of quick action menu icons</li>
+<li>Allow B / O / Esc to exit pause menu</li>
+</ul>
+<h4>Balance Changes</h4>
+<ul>
+<li>Removed the final two LATVs from the boss wave on <em>Sidewinder Pass</em></li>
+<li>Increased Rocket Post base damage from <strong>200</strong> -&gt; <strong>210</strong></li>
+<li>Reduced item drop amounts from <a href="/abilities/supply_drop">Adv. Supply Drop</a></li>
+<li>Increased the cost of skill points in the market from <strong>5,000</strong> → <strong>10,000</strong></li>
+<li>Reduced the base cost of several power and economy sites:<ul>
+<li>Solar Array (<strong>300</strong> → <strong>200</strong>)</li>
+<li>Wind Turbine (<strong>600</strong> → <strong>400</strong>)</li>
+<li>Power Plant (<strong>1200</strong> → <strong>800</strong>)</li>
+<li>Fabrication Facility (<strong>1600</strong> → <strong>1200</strong>)</li>
+</ul>
+</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+<li>Fixed an issue with the Inspect icon when inspecting items using a controller</li>
+<li>Fixed multiple controller focus issues across all menu pages</li>
+<li>Prevented pausing before mission intro dialogue appears</li>
+<li>Fixed a performance issue related to in-game cursor icon updates</li>
+<li>Fixed an issue where selling a Power site right before taking damage could cause double power loss</li>
+<li>Fixed mouse rotation continuing after pausing and unpausing</li>
+<li>Fixed centering issues with the quick action menu when using a controller</li>
+<li>Fixed an issue when binding abilities or quick action slots to <em>Reset to Defaults</em> button binding</li>
+<li>Fixed tooltips appearing behind initial tutorial dialogues on menu pages</li>
+<li>Fixed an issue where market item quantities could be adjusted via D-pad even when the quantity was 1</li>
+</ul>
+<h2><strong>v0.6.2 - QOL Improvements &amp; Bug Fixes (January 24, 2026)</strong></h2>
 <h4>New Features</h4>
 <ul>
 <li>Added left click and drag for easier mouse map panning</li>
@@ -248,15 +312,15 @@
 			
 			<script>
 				{
-					__sveltekit_1v52x03 = {
+					__sveltekit_m42hw1 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.Car0Q_p7.js"),
-						import("./_app/immutable/entry/app.C0kpz-wD.js")
+						import("./_app/immutable/entry/start.Lq4l0lRU.js"),
+						import("./_app/immutable/entry/app.D2fw3F-u.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 13],

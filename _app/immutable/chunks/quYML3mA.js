@@ -6,7 +6,7 @@ A rugged, high capacity energy site designed for sustained operation in demandin
 \r
 ## Stats\r
 - Hitpoints: 8000 hp\r
-- Cost: 1200\r
+- Cost: 800\r
 - Build Time: 4s\r
 - Power Produced: 600\r
 \r

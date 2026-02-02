@@ -6,7 +6,7 @@ Manufacturing site that continuously produces valuable materials. Outfitted with
 \r
 ## Stats\r
 - Hitpoints: 8000 hp\r
-- Cost: 1600\r
+- Cost: 1200\r
 - Build Time: 4s\r
 - Power Consumed: 800\r
 - Production: Scrap Metal (15 - 25), Propellant (2 - 4), Engine Components (2 - 4), Heavy Alloy (1 - 4), Electronics (1 - 4)\r

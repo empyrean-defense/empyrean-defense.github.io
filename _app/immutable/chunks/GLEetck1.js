@@ -6,7 +6,7 @@ Provides a simple and dependable source of power, using modern wind systems to k
 \r
 ## Stats\r
 - Hitpoints: 4000 hp\r
-- Cost: 600\r
+- Cost: 400\r
 - Build Time: 2s\r
 - Power Produced: 300\r
 \r

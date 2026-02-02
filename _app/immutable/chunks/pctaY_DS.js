@@ -6,7 +6,7 @@ Launch site equipped with precision guided rockets designed to pierce through en
 \r
 ## Stats\r
 - Hitpoints: 4000 hp\r
-- Damage: 200\r
+- Damage: 210\r
 - Range: 40m\r
 - Rate of Fire: 1\r
 - Crit Chance: 15%\r

@@ -1,7 +1,65 @@
 const e=`# Release Notes\r
 \r
-## **v0.6.2 - QOL Improvements & Bug Fixes (January 24, 2026)**\r
+## **v0.7.0 - Steam Deck Support, QoL Improvements & Bug Fixes (February 1, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added sound effects for skill up and reset skills actions in the skill tree\r
+- Added a red glow to site HP bars when below 30% HP\r
+- Added on-screen arrow indicators for:\r
+  - Sites below 30% HP\r
+  - Sites that have run out of ammo\r
+  - Landed Supply Drops\r
+  - Incoming boss units\r
+  - Rare item drops\r
+- Added a side button on the abilities bar to toggle *Night Vision Goggles* for keyboard & mouse users\r
+*(the toggle setting is still available in Settings)*\r
+- Renamed *Greenwood Shoreline* to *Brightwood Bay*\r
+\r
+#### Improvements\r
+- Split Display settings out of cloud saves and keep them user/device specific\r
+- Removed redundant item descriptions from bottom pickup notifications\r
+- Updated interface action font to better match the game's theme\r
+- Improved clarity of Power Meter used/available text indicators\r
+- Dynamically position Objectives and Enemy Info panels based on UI scale and panel visibility\r
+- Standardized sizes for enemy damage numbers and notification popups\r
+- Display site HP bars above other objects by default, with a new toggle option in Settings\r
+- Display next wave panels above other objects\r
+- Added scrolling support to the mission description panel on the realm map\r
+- Added support for holding the D-pad to quickly adjust market item quantities when using a controller\r
+- Added *PS5*, *Steam*, and *Steam Deck* controller glyphs\r
+- Improved Steam Input API handling to better identify connected controller types\r
+- Increased the maximum value of *UI Scale* setting\r
+- Increased UI component and font sizes across the game for better readability\r
+- Removed market item quantity text input boxes on *Steam Deck*\r
+- Slightly increased the size of quick action menu icons\r
+- Allow B / O / Esc to exit pause menu\r
+\r
+#### Balance Changes\r
+- Removed the final two LATVs from the boss wave on *Sidewinder Pass*\r
+- Increased Rocket Post base damage from **200** -> **210**\r
+- Reduced item drop amounts from [Adv. Supply Drop](/abilities/supply_drop)\r
+- Increased the cost of skill points in the market from **5,000** → **10,000**\r
+- Reduced the base cost of several power and economy sites:\r
+  - Solar Array (**300** → **200**)\r
+  - Wind Turbine (**600** → **400**)\r
+  - Power Plant (**1200** → **800**)\r
+  - Fabrication Facility (**1600** → **1200**)\r
+\r
+\r
+#### Bug Fixes\r
+- Fixed an issue with the Inspect icon when inspecting items using a controller\r
+- Fixed multiple controller focus issues across all menu pages\r
+- Prevented pausing before mission intro dialogue appears\r
+- Fixed a performance issue related to in-game cursor icon updates\r
+- Fixed an issue where selling a Power site right before taking damage could cause double power loss\r
+- Fixed mouse rotation continuing after pausing and unpausing\r
+- Fixed centering issues with the quick action menu when using a controller\r
+- Fixed an issue when binding abilities or quick action slots to *Reset to Defaults* button binding\r
+- Fixed tooltips appearing behind initial tutorial dialogues on menu pages\r
+- Fixed an issue where market item quantities could be adjusted via D-pad even when the quantity was 1\r
+\r
+## **v0.6.2 - QOL Improvements & Bug Fixes (January 24, 2026)**\r
 \r
 #### New Features\r
 - Added left click and drag for easier mouse map panning\r

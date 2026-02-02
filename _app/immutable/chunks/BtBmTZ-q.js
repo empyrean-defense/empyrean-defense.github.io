@@ -6,7 +6,7 @@ Generates clean, renewable power using advanced photovoltaic panels. Built for s
 \r
 ## Stats\r
 - Hitpoints: 2000 hp\r
-- Cost: 300\r
+- Cost: 200\r
 - Build Time: 2s\r
 - Power Produced: 150\r
 \r
