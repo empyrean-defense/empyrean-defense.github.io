@@ -62,7 +62,6 @@ We're gearing up for an exciting 2026!\r
   - Power Plant (**1200** → **800**)\r
   - Fabrication Facility (**1600** → **1200**)\r
 \r
-\r
 #### Bug Fixes\r
 - Fixed an issue with the Inspect icon when inspecting items using a controller\r
 - Fixed multiple controller focus issues across all menu pages\r
@@ -71,6 +70,6 @@ We're gearing up for an exciting 2026!\r
 - Fixed an issue where selling a Power site right before taking damage could cause double power loss\r
 - Fixed mouse rotation continuing after pausing and unpausing\r
 - Fixed centering issues with the quick action menu when using a controller\r
-- Fixed an issue when binding abilities or quick action slots to *Reset to Defaults* button\r
+- Fixed an issue when binding abilities or quick action slots to *Reset to Defaults* button binding\r
 - Fixed tooltips appearing behind initial tutorial dialogues on menu pages\r
 - Fixed an issue where market item quantities could be adjusted via D-pad even when the quantity was 1`;export{e as default};
