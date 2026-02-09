@@ -1,7 +1,38 @@
 const e=`# Release Notes\r
 \r
-## **v0.7.0 - Steam Deck Support, QoL Improvements & Bug Fixes (February 1, 2026)**\r
+## **v0.8.0 - Save Slots, Onboarding & Performance (February 8, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added an onboarding checklist for new recruits to better familiarize them with the game menu and core mechanics\r
+- Added multiple game save slots, and the game menu quit button now provides an option to return to the main menu\r
+- Added enemy and site overlay shaders that trigger on damaging hits and abilities\r
+- Added Rank 2 [Fire and Ice](/skills) skill: boosts the [Napalm Strike](/abilities/napalm_strike) ability's damage by 25% and increases the effectiveness of the [Blizzard](/abilities/blizzard) ability's slow by 25%\r
+\r
+#### Improvements\r
+- Increased initial camera rotation and movement speed slightly\r
+- The quick actions menu now reappears and highlights the site after closing site menu if the cursor is still hovering over it\r
+- Major performance enhancements to:\r
+  - Military sites and enemies particle systems\r
+  - Plasma Gun site\r
+  - Reduced mesh counts across numerous models\r
+  - Cache additional game menu resources for faster page loading\r
+- Increased dialogue font size and split up longer conversations for better readability\r
+- Moved game menu page intro dialogues to optional tutorial feature on each page\r
+- Added character popups for checklist completions and first-time game menu page visits\r
+\r
+#### Balance Changes\r
+- Removed ability requirements from some skills\r
+\r
+#### Bug Fixes\r
+- Fixed an issue where mission difficulty did not scale boss subcomponents hitpoints\r
+- Fixed an issue where repair drones did not trigger on pre-built damaged sites\r
+- Fixed an issue where the last selected map mission was not focused when the active input changed and the mission panel was closed\r
+- Fixed an issue with ammo crafting which allowed players to craft ammo that ran out of resources when crafting a previous different ammo type\r
+- Fixed an issue where Night Vision goggles toggle appeared incorrectly in the abilities side menu\r
+- Fixed an issue where out of ammo edge screen notifications could persist for certain ammo types\r
+\r
+## **v0.7.0 - Steam Deck Support, QoL Improvements & Bug Fixes (February 1, 2026)**\r
 \r
 #### New Features\r
 - Added sound effects for skill up and reset skills actions in the skill tree\r
@@ -45,7 +76,6 @@ const e=`# Release Notes\r
   - Wind Turbine (**600** → **400**)\r
   - Power Plant (**1200** → **800**)\r
   - Fabrication Facility (**1600** → **1200**)\r
-\r
 \r
 #### Bug Fixes\r
 - Fixed an issue with the Inspect icon when inspecting items using a controller\r

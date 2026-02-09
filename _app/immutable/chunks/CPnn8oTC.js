@@ -8,7 +8,7 @@ Engulfs all enemies within an area in flames\r
 - Type: Attack\r
 - Tier: I\r
 - Effect: Area\r
-- Rank Required: Corporal (3)\r
+- Rank Required: Private First Class (2)\r
 - Cooldown: 15s\r
 - Duration: 8s\r
 - Tick: .5s\r

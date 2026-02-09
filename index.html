@@ -7,18 +7,18 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/2.C769Jem9.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.JCeC9FjJ.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/C3qNt-lo.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start._-4P7a_d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Cs1Vaq_d.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.BRfriMVi.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DNT6KPuB.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.DCnq6jn1.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.BaU9tSjc.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
@@ -36,84 +36,56 @@
 <li><strong>Early Access Release</strong>: Empyrean Defense launches into Early Access on <strong>July 23, 2026</strong>.</li>
 </ul>
 <h2>Status</h2>
-<h2><strong>v0.7.0 - Steam Deck Support, QoL Improvements &amp; Bug Fixes (February 1, 2026)</strong></h2>
+<h2><strong>v0.8.0 - Save Slots, Onboarding &amp; Performance (February 8, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
 <h4>New Features</h4>
 <ul>
-<li>Added sound effects for skill up and reset skills actions in the skill tree</li>
-<li>Added a red glow to site HP bars when below 30% HP</li>
-<li>Added on-screen arrow indicators for:<ul>
-<li>Sites below 30% HP</li>
-<li>Sites that have run out of ammo</li>
-<li>Landed Supply Drops</li>
-<li>Incoming boss units</li>
-<li>Rare item drops</li>
-</ul>
-</li>
-<li>Added a side button on the abilities bar to toggle <em>Night Vision Goggles</em> for keyboard &amp; mouse users
-<em>(the toggle setting is still available in Settings)</em></li>
-<li>Renamed <em>Greenwood Shoreline</em> to <em>Brightwood Bay</em></li>
+<li>Added an onboarding checklist for new recruits to better familiarize them with the game menu and core mechanics</li>
+<li>Added multiple game save slots, and the game menu quit button now provides an option to return to the main menu</li>
+<li>Added enemy and site overlay shaders that trigger on damaging hits and abilities</li>
+<li>Added Rank 2 <a href="/skills">Fire and Ice</a> skill: boosts the <a href="/abilities/napalm_strike">Napalm Strike</a> ability&#39;s damage by 25% and increases the effectiveness of the <a href="/abilities/blizzard">Blizzard</a> ability&#39;s slow by 25%</li>
 </ul>
 <h4>Improvements</h4>
 <ul>
-<li>Split Display settings out of cloud saves and keep them user/device specific</li>
-<li>Removed redundant item descriptions from bottom pickup notifications</li>
-<li>Updated interface action font to better match the game&#39;s theme</li>
-<li>Improved clarity of Power Meter used/available text indicators</li>
-<li>Dynamically position Objectives and Enemy Info panels based on UI scale and panel visibility</li>
-<li>Standardized sizes for enemy damage numbers and notification popups</li>
-<li>Display site HP bars above other objects by default, with a new toggle option in Settings</li>
-<li>Display next wave panels above other objects</li>
-<li>Added scrolling support to the mission description panel on the realm map</li>
-<li>Added support for holding the D-pad to quickly adjust market item quantities when using a controller</li>
-<li>Added <em>PS5</em>, <em>Steam</em>, and <em>Steam Deck</em> controller glyphs</li>
-<li>Improved Steam Input API handling to better identify connected controller types</li>
-<li>Increased the maximum value of <em>UI Scale</em> setting</li>
-<li>Increased UI component and font sizes across the game for better readability</li>
-<li>Removed market item quantity text input boxes on <em>Steam Deck</em></li>
-<li>Slightly increased the size of quick action menu icons</li>
-<li>Allow B / O / Esc to exit pause menu</li>
+<li>Increased initial camera rotation and movement speed slightly</li>
+<li>The quick actions menu now reappears and highlights the site after closing site menu if the cursor is still hovering over it</li>
+<li>Major performance enhancements to:<ul>
+<li>Military sites and enemies particle systems</li>
+<li>Plasma Gun site</li>
+<li>Reduced mesh counts across numerous models</li>
+<li>Cache additional game menu resources for faster page loading</li>
+</ul>
+</li>
+<li>Increased dialogue font size and split up longer conversations for better readability</li>
+<li>Moved game menu page intro dialogues to optional tutorial feature on each page</li>
+<li>Added character popups for checklist completions and first-time game menu page visits</li>
 </ul>
 <h4>Balance Changes</h4>
 <ul>
-<li>Removed the final two LATVs from the boss wave on <em>Sidewinder Pass</em></li>
-<li>Increased Rocket Post base damage from <strong>200</strong> -&gt; <strong>210</strong></li>
-<li>Reduced item drop amounts from <a href="/abilities/supply_drop">Adv. Supply Drop</a></li>
-<li>Increased the cost of skill points in the market from <strong>5,000</strong> → <strong>10,000</strong></li>
-<li>Reduced the base cost of several power and economy sites:<ul>
-<li>Solar Array (<strong>300</strong> → <strong>200</strong>)</li>
-<li>Wind Turbine (<strong>600</strong> → <strong>400</strong>)</li>
-<li>Power Plant (<strong>1200</strong> → <strong>800</strong>)</li>
-<li>Fabrication Facility (<strong>1600</strong> → <strong>1200</strong>)</li>
-</ul>
-</li>
+<li>Removed ability requirements from some skills</li>
 </ul>
 <h4>Bug Fixes</h4>
 <ul>
-<li>Fixed an issue with the Inspect icon when inspecting items using a controller</li>
-<li>Fixed multiple controller focus issues across all menu pages</li>
-<li>Prevented pausing before mission intro dialogue appears</li>
-<li>Fixed a performance issue related to in-game cursor icon updates</li>
-<li>Fixed an issue where selling a Power site right before taking damage could cause double power loss</li>
-<li>Fixed mouse rotation continuing after pausing and unpausing</li>
-<li>Fixed centering issues with the quick action menu when using a controller</li>
-<li>Fixed an issue when binding abilities or quick action slots to <em>Reset to Defaults</em> button binding</li>
-<li>Fixed tooltips appearing behind initial tutorial dialogues on menu pages</li>
-<li>Fixed an issue where market item quantities could be adjusted via D-pad even when the quantity was 1</li>
+<li>Fixed an issue where mission difficulty did not scale boss subcomponents hitpoints</li>
+<li>Fixed an issue where repair drones did not trigger on pre-built damaged sites</li>
+<li>Fixed an issue where the last selected map mission was not focused when the active input changed and the mission panel was closed</li>
+<li>Fixed an issue with ammo crafting which allowed players to craft ammo that ran out of resources when crafting a previous different ammo type</li>
+<li>Fixed an issue where Night Vision goggles toggle appeared incorrectly in the abilities side menu</li>
+<li>Fixed an issue where out of ammo edge screen notifications could persist for certain ammo types</li>
 </ul>
 <!----></div></article><!----><!----></div></main> <footer class="svelte-rmkusp"><a href="https://nighthawk-studios.com/" target="_blank" rel="noopener" class="svelte-rmkusp">© 2026 Nighthawk Studios LLC</a> · <a href="https://store.steampowered.com/app/3575690/Empyrean_Defense/" target="_blank" rel="noopener" class="svelte-rmkusp">Steam</a> · <a href="https://www.instagram.com/nighthawk.studios/" target="_blank" rel="noopener" class="svelte-rmkusp">Instagram</a></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_qal6an = {
+					__sveltekit_i8tmty = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.JCeC9FjJ.js"),
-						import("./_app/immutable/entry/app.BRfriMVi.js")
+						import("./_app/immutable/entry/start._-4P7a_d.js"),
+						import("./_app/immutable/entry/app.DNT6KPuB.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],

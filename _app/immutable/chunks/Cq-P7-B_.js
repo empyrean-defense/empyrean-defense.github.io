@@ -10,8 +10,8 @@ The Armored Personnel Carrier combines troop transport with light offensive capa
 - Armor: 30 ap\r
 - Credits: 150\r
 \r
-- Damage: 30\r
-- Rate of Fire: 6\r
+- Damage: 45\r
+- Rate of Fire: 4\r
 - Crit Chance: 1%\r
 - Range: 40m\r
 \r
