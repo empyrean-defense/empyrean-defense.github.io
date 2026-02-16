@@ -7,25 +7,74 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/3.oOcI5n1d.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start._-4P7a_d.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Cs1Vaq_d.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Dl1bFcgU.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Bo80Qjek.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.DNT6KPuB.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BjMYGBVx.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/13.CtPGqBXa.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/13.D2U4Ae-0.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents"><!--[--><!--[--><!----><main class="svelte-rmkusp"><nav class="sidebar svelte-137bbzy"><div class="mobile-bar svelte-137bbzy"><img class="logo svelte-137bbzy" src="/logo.png" alt="Empyrean Defense"> <button class="menu-btn svelte-137bbzy" type="button">Menu</button></div> <div class="desktop-header svelte-137bbzy"><br> <img src="/logo.png" title="Empyrean Defense" alt="Empyrean Defense" width="100%"> <br> <div class="logo_text svelte-137bbzy"><b>WIKI</b></div> <hr></div> <div class="links svelte-137bbzy"><!--[--><a href="/" class="svelte-137bbzy">Home</a><a href="/playtest/" class="svelte-137bbzy">Playtest</a><a href="/release-notes/" class="svelte-137bbzy">Release Notes</a><!--]--> <hr> <!--[--><a href="/abilities/" class="svelte-137bbzy">Abilities</a><a href="/achievements/" class="svelte-137bbzy">Achievements</a><a href="/ammunition/" class="svelte-137bbzy">Ammunition</a><a href="/enemies/" class="svelte-137bbzy">Enemies</a><a href="/items/" class="svelte-137bbzy">Items</a><a href="/ranks/" class="svelte-137bbzy">Ranks</a><a href="/sites/" class="svelte-137bbzy">Sites</a><a href="/skills/" class="svelte-137bbzy">Skills</a><!--]--></div></nav><!----> <div class="content svelte-rmkusp"><!----><!----><article class="markdown-body svelte-1186yb2"><div><!----><h1>Release Notes</h1>
-<h2><strong>v0.8.0 - Save Slots, Onboarding &amp; Performance (February 8, 2026)</strong></h2>
+<h2><strong>v0.9.0 - Landmarks, Performance and Stability Improvements (February 16, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
+<h4>New Features</h4>
+<ul>
+<li>Introduced landmarks as neutral targets, including new interactions and mission fail conditions<ul>
+<li>Added <em>Chapel of the First Sovereign</em> landmark to <em>Graywake Reach</em></li>
+</ul>
+</li>
+<li>Added ability damage popups with accompanying icons for clearer combat feedback</li>
+<li>Abilities can now interact with sites during Mission Prep (before Wave 1 begins)</li>
+<li>World repair and shield abilities now affect landmarks</li>
+<li>Added a controller target icon for clearer target selection</li>
+<li>Added a loss reason indicator when failing due to landmark destruction</li>
+<li>Supply drop crates now auto-remove after one minute if uncollected</li>
+<li>Added a dedicated boss icon for improved readability</li>
+</ul>
+<h4>Improvements</h4>
+<ul>
+<li>Improved item drop cooldown indicators with clearer visuals and background contrast</li>
+<li>Increased font and icon sizes in the Site Menu right panel for better readability</li>
+<li>Improved controller navigation and focus behavior across menus and UI panels</li>
+<li>Power meter now appears earlier if the player owns a power related site</li>
+<li>Improved ability targeting and AoE placement on uneven terrain</li>
+<li>Increased decal height for AoE hover indicators to better handle elevation changes</li>
+<li>Enemy info panel now also displays landmark details when applicable</li>
+<li>Added landmark damage edge indicators for clearer situational awareness</li>
+<li>Enemies now prioritize landmarks when appropriate</li>
+<li>Improved visual clarity of circular menu buttons with updated fonts</li>
+<li>Reduced UI tooltip flicker when navigating between menu pages</li>
+</ul>
+<h4>Balance Changes</h4>
+<ul>
+<li>Updated enemy targeting logic so enemies can engage both sites and landmarks</li>
+<li>Adjusted large AoE abilities to rely on terrain based targeting for consistency</li>
+<li>Reduced enemy soldier LOD bias to improve performance during large engagements</li>
+<li>Improved explosion effect scaling for better visual feedback</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+<li>Fixed save files failing to load when rank data exceeded the current max rank</li>
+<li>Fixed demo save data incorrectly carrying over into the full game</li>
+<li>Fixed controller and mouse input conflicts causing unintended camera panning</li>
+<li>Fixed multiple controller focus issues across pause menus, medal containers, and play menus</li>
+<li>Fixed landmark selection not properly updating the info panel</li>
+<li>Fixed supply crate indicators persisting after the crate expired</li>
+<li>Fixed pause flow when losing a mission due to landmark destruction</li>
+<li>Fixed several tooltip positioning and rendering issues</li>
+<li>Fixed post game menu animation issues</li>
+<li>Removed unused assets and improved memory cleanup during loading and pause screens</li>
+</ul>
+<h2><strong>v0.8.0 - Save Slots, Onboarding &amp; Performance (February 8, 2026)</strong></h2>
 <h4>New Features</h4>
 <ul>
 <li>Added an onboarding checklist for new recruits to better familiarize them with the game menu and core mechanics</li>
@@ -348,15 +397,15 @@
 			
 			<script>
 				{
-					__sveltekit_i8tmty = {
+					__sveltekit_13scu48 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start._-4P7a_d.js"),
-						import("./_app/immutable/entry/app.DNT6KPuB.js")
+						import("./_app/immutable/entry/start.Dl1bFcgU.js"),
+						import("./_app/immutable/entry/app.BjMYGBVx.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 13],

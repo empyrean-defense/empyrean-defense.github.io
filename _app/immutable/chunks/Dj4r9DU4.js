@@ -1,7 +1,51 @@
 const e=`# Release Notes\r
 \r
-## **v0.8.0 - Save Slots, Onboarding & Performance (February 8, 2026)**\r
+## **v0.9.0 - Landmarks, Performance and Stability Improvements (February 16, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Introduced landmarks as neutral targets, including new interactions and mission fail conditions\r
+  - Added *Chapel of the First Sovereign* landmark to *Graywake Reach*\r
+- Added ability damage popups with accompanying icons for clearer combat feedback\r
+- Abilities can now interact with sites during Mission Prep (before Wave 1 begins)\r
+- World repair and shield abilities now affect landmarks\r
+- Added a controller target icon for clearer target selection\r
+- Added a loss reason indicator when failing due to landmark destruction\r
+- Supply drop crates now auto-remove after one minute if uncollected\r
+- Added a dedicated boss icon for improved readability\r
+\r
+#### Improvements\r
+- Improved item drop cooldown indicators with clearer visuals and background contrast\r
+- Increased font and icon sizes in the Site Menu right panel for better readability\r
+- Improved controller navigation and focus behavior across menus and UI panels\r
+- Power meter now appears earlier if the player owns a power related site\r
+- Improved ability targeting and AoE placement on uneven terrain\r
+- Increased decal height for AoE hover indicators to better handle elevation changes\r
+- Enemy info panel now also displays landmark details when applicable\r
+- Added landmark damage edge indicators for clearer situational awareness\r
+- Enemies now prioritize landmarks when appropriate\r
+- Improved visual clarity of circular menu buttons with updated fonts\r
+- Reduced UI tooltip flicker when navigating between menu pages\r
+\r
+#### Balance Changes\r
+- Updated enemy targeting logic so enemies can engage both sites and landmarks\r
+- Adjusted large AoE abilities to rely on terrain based targeting for consistency\r
+- Reduced enemy soldier LOD bias to improve performance during large engagements\r
+- Improved explosion effect scaling for better visual feedback\r
+\r
+#### Bug Fixes\r
+- Fixed save files failing to load when rank data exceeded the current max rank\r
+- Fixed demo save data incorrectly carrying over into the full game\r
+- Fixed controller and mouse input conflicts causing unintended camera panning\r
+- Fixed multiple controller focus issues across pause menus, medal containers, and play menus\r
+- Fixed landmark selection not properly updating the info panel\r
+- Fixed supply crate indicators persisting after the crate expired\r
+- Fixed pause flow when losing a mission due to landmark destruction\r
+- Fixed several tooltip positioning and rendering issues\r
+- Fixed post game menu animation issues\r
+- Removed unused assets and improved memory cleanup during loading and pause screens\r
+\r
+## **v0.8.0 - Save Slots, Onboarding & Performance (February 8, 2026)**\r
 \r
 #### New Features\r
 - Added an onboarding checklist for new recruits to better familiarize them with the game menu and core mechanics\r

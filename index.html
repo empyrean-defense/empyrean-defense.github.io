@@ -7,18 +7,18 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/2.C769Jem9.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start._-4P7a_d.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Cs1Vaq_d.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.Dl1bFcgU.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Bo80Qjek.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.DNT6KPuB.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BjMYGBVx.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.BaU9tSjc.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.CHx33go6.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
@@ -36,56 +36,69 @@
 <li><strong>Early Access Release</strong>: Empyrean Defense launches into Early Access on <strong>July 23, 2026</strong>.</li>
 </ul>
 <h2>Status</h2>
-<h2><strong>v0.8.0 - Save Slots, Onboarding &amp; Performance (February 8, 2026)</strong></h2>
+<h2><strong>v0.9.0 - Landmarks, Performance and Stability Improvements (February 16, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
 <h4>New Features</h4>
 <ul>
-<li>Added an onboarding checklist for new recruits to better familiarize them with the game menu and core mechanics</li>
-<li>Added multiple game save slots, and the game menu quit button now provides an option to return to the main menu</li>
-<li>Added enemy and site overlay shaders that trigger on damaging hits and abilities</li>
-<li>Added Rank 2 <a href="/skills">Fire and Ice</a> skill: boosts the <a href="/abilities/napalm_strike">Napalm Strike</a> ability&#39;s damage by 25% and increases the effectiveness of the <a href="/abilities/blizzard">Blizzard</a> ability&#39;s slow by 25%</li>
+<li>Introduced landmarks as neutral targets, including new interactions and mission fail conditions<ul>
+<li>Added <em>Chapel of the First Sovereign</em> landmark to <em>Graywake Reach</em></li>
+</ul>
+</li>
+<li>Added ability damage popups with accompanying icons for clearer combat feedback</li>
+<li>Abilities can now interact with sites during Mission Prep (before Wave 1 begins)</li>
+<li>World repair and shield abilities now affect landmarks</li>
+<li>Added a controller target icon for clearer target selection</li>
+<li>Added a loss reason indicator when failing due to landmark destruction</li>
+<li>Supply drop crates now auto-remove after one minute if uncollected</li>
+<li>Added a dedicated boss icon for improved readability</li>
 </ul>
 <h4>Improvements</h4>
 <ul>
-<li>Increased initial camera rotation and movement speed slightly</li>
-<li>The quick actions menu now reappears and highlights the site after closing site menu if the cursor is still hovering over it</li>
-<li>Major performance enhancements to:<ul>
-<li>Military sites and enemies particle systems</li>
-<li>Plasma Gun site</li>
-<li>Reduced mesh counts across numerous models</li>
-<li>Cache additional game menu resources for faster page loading</li>
-</ul>
-</li>
-<li>Increased dialogue font size and split up longer conversations for better readability</li>
-<li>Moved game menu page intro dialogues to optional tutorial feature on each page</li>
-<li>Added character popups for checklist completions and first-time game menu page visits</li>
+<li>Improved item drop cooldown indicators with clearer visuals and background contrast</li>
+<li>Increased font and icon sizes in the Site Menu right panel for better readability</li>
+<li>Improved controller navigation and focus behavior across menus and UI panels</li>
+<li>Power meter now appears earlier if the player owns a power related site</li>
+<li>Improved ability targeting and AoE placement on uneven terrain</li>
+<li>Increased decal height for AoE hover indicators to better handle elevation changes</li>
+<li>Enemy info panel now also displays landmark details when applicable</li>
+<li>Added landmark damage edge indicators for clearer situational awareness</li>
+<li>Enemies now prioritize landmarks when appropriate</li>
+<li>Improved visual clarity of circular menu buttons with updated fonts</li>
+<li>Reduced UI tooltip flicker when navigating between menu pages</li>
 </ul>
 <h4>Balance Changes</h4>
 <ul>
-<li>Removed ability requirements from some skills</li>
+<li>Updated enemy targeting logic so enemies can engage both sites and landmarks</li>
+<li>Adjusted large AoE abilities to rely on terrain based targeting for consistency</li>
+<li>Reduced enemy soldier LOD bias to improve performance during large engagements</li>
+<li>Improved explosion effect scaling for better visual feedback</li>
 </ul>
 <h4>Bug Fixes</h4>
 <ul>
-<li>Fixed an issue where mission difficulty did not scale boss subcomponents hitpoints</li>
-<li>Fixed an issue where repair drones did not trigger on pre-built damaged sites</li>
-<li>Fixed an issue where the last selected map mission was not focused when the active input changed and the mission panel was closed</li>
-<li>Fixed an issue with ammo crafting which allowed players to craft ammo that ran out of resources when crafting a previous different ammo type</li>
-<li>Fixed an issue where Night Vision goggles toggle appeared incorrectly in the abilities side menu</li>
-<li>Fixed an issue where out of ammo edge screen notifications could persist for certain ammo types</li>
+<li>Fixed save files failing to load when rank data exceeded the current max rank</li>
+<li>Fixed demo save data incorrectly carrying over into the full game</li>
+<li>Fixed controller and mouse input conflicts causing unintended camera panning</li>
+<li>Fixed multiple controller focus issues across pause menus, medal containers, and play menus</li>
+<li>Fixed landmark selection not properly updating the info panel</li>
+<li>Fixed supply crate indicators persisting after the crate expired</li>
+<li>Fixed pause flow when losing a mission due to landmark destruction</li>
+<li>Fixed several tooltip positioning and rendering issues</li>
+<li>Fixed post game menu animation issues</li>
+<li>Removed unused assets and improved memory cleanup during loading and pause screens</li>
 </ul>
 <!----></div></article><!----><!----></div></main> <footer class="svelte-rmkusp"><a href="https://nighthawk-studios.com/" target="_blank" rel="noopener" class="svelte-rmkusp">© 2026 Nighthawk Studios LLC</a> · <a href="https://store.steampowered.com/app/3575690/Empyrean_Defense/" target="_blank" rel="noopener" class="svelte-rmkusp">Steam</a> · <a href="https://www.instagram.com/nighthawk.studios/" target="_blank" rel="noopener" class="svelte-rmkusp">Instagram</a></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_i8tmty = {
+					__sveltekit_13scu48 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start._-4P7a_d.js"),
-						import("./_app/immutable/entry/app.DNT6KPuB.js")
+						import("./_app/immutable/entry/start.Dl1bFcgU.js"),
+						import("./_app/immutable/entry/app.BjMYGBVx.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
