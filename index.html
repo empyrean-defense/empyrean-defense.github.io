@@ -7,18 +7,18 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/2.C769Jem9.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.Dl1bFcgU.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Bo80Qjek.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.B8oqVoAq.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/COJ9BXih.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.BjMYGBVx.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.y5WQpyLw.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.CHx33go6.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.CcqcJyY2.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
@@ -31,74 +31,80 @@
 <p>We&#39;re gearing up for an exciting 2026!</p>
 <ul>
 <li><strong>Official Playtest</strong>: The official playtest is LIVE! For anyone interested in testing the game prior to the demo and Early Access, please sign up <a href="https://forms.gle/dwwXvsX9oaai5b5p6" target="_blank">here</a>. Once your submission is accepted, you will receive an activation key and can head over to the <a href="/playtest">Playtest Page</a> to get started!</li>
-<li><strong>Public Demo</strong>: Our first public demo will be available in early <strong>February</strong>. Come try the game, share feedback, and help shape development.</li>
+<li><strong>Public Demo</strong>: Our first public demo will be available in <strong>March</strong>. Come try the game, share feedback, and help shape development.</li>
 <li><strong>Steam Next Fest</strong>: Check out Empyrean Defense at Steam Next Fest <strong>June 15-22, 2026</strong>.</li>
 <li><strong>Early Access Release</strong>: Empyrean Defense launches into Early Access on <strong>July 23, 2026</strong>.</li>
 </ul>
 <h2>Status</h2>
-<h2><strong>v0.9.0 - Landmarks, Performance and Stability Improvements (February 16, 2026)</strong></h2>
+<h2><strong>v0.9.1 - Interface &amp; Stability Improvements (February 22, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
 <h4>New Features</h4>
 <ul>
-<li>Introduced landmarks as neutral targets, including new interactions and mission fail conditions<ul>
-<li>Added <em>Chapel of the First Sovereign</em> landmark to <em>Graywake Reach</em></li>
-</ul>
-</li>
-<li>Added ability damage popups with accompanying icons for clearer combat feedback</li>
-<li>Abilities can now interact with sites during Mission Prep (before Wave 1 begins)</li>
-<li>World repair and shield abilities now affect landmarks</li>
-<li>Added a controller target icon for clearer target selection</li>
-<li>Added a loss reason indicator when failing due to landmark destruction</li>
-<li>Supply drop crates now auto-remove after one minute if uncollected</li>
-<li>Added a dedicated boss icon for improved readability</li>
+<li>Added progress bars to Economy Sites to better visualize resource production</li>
 </ul>
 <h4>Improvements</h4>
 <ul>
-<li>Improved item drop cooldown indicators with clearer visuals and background contrast</li>
-<li>Increased font and icon sizes in the Site Menu right panel for better readability</li>
-<li>Improved controller navigation and focus behavior across menus and UI panels</li>
-<li>Power meter now appears earlier if the player owns a power related site</li>
-<li>Improved ability targeting and AoE placement on uneven terrain</li>
-<li>Increased decal height for AoE hover indicators to better handle elevation changes</li>
-<li>Enemy info panel now also displays landmark details when applicable</li>
-<li>Added landmark damage edge indicators for clearer situational awareness</li>
-<li>Enemies now prioritize landmarks when appropriate</li>
-<li>Improved visual clarity of circular menu buttons with updated fonts</li>
-<li>Reduced UI tooltip flicker when navigating between menu pages</li>
+<li>Improved performance and stability during extended play sessions</li>
+<li>Improved UI readability with larger fonts across the top navigation menu, buttons, credits and briefing panels</li>
+<li>Improved controller navigation<ul>
+<li>Map mission panel objectives and medals are now focusable when using a controller</li>
+<li>Tooltips behave more consistently when navigating with a controller</li>
+</ul>
+</li>
+<li>Introduced a new Main Menu layout with an integrated Briefing Panel</li>
+<li>Added new UI button effect with a sticky selected option for controller navigation</li>
+<li>Added Armory enhancements including ground, naval, and airborne scenes for improved presentation</li>
+<li>Added higher resolution medal and tutorial icons</li>
 </ul>
 <h4>Balance Changes</h4>
 <ul>
-<li>Updated enemy targeting logic so enemies can engage both sites and landmarks</li>
-<li>Adjusted large AoE abilities to rely on terrain based targeting for consistency</li>
-<li>Reduced enemy soldier LOD bias to improve performance during large engagements</li>
-<li>Improved explosion effect scaling for better visual feedback</li>
+<li>Repair Ability<ul>
+<li>Repair per tick reduced from <strong>200</strong> → <strong>120</strong></li>
+</ul>
+</li>
+<li>Firestorm (formerly Napalm Strike)<ul>
+<li>Damage per tick increased from <strong>50</strong> → <strong>70</strong></li>
+</ul>
+</li>
+<li>Wraith Turret<ul>
+<li>Damage per shot increased from <strong>50</strong> → <strong>70</strong></li>
+</ul>
+</li>
+<li>Rocket attacks<ul>
+<li>Blast radius increased slightly</li>
+</ul>
+</li>
+<li><em>Sidewinder Pass</em><ul>
+<li>Crystal objective reduced from <strong>1000</strong> → <strong>800</strong></li>
+</ul>
+</li>
+<li><em>Graywake Reach</em><ul>
+<li>Adjusted time requirements slightly for Silver and Gold medals</li>
+</ul>
+</li>
 </ul>
 <h4>Bug Fixes</h4>
 <ul>
-<li>Fixed save files failing to load when rank data exceeded the current max rank</li>
-<li>Fixed demo save data incorrectly carrying over into the full game</li>
-<li>Fixed controller and mouse input conflicts causing unintended camera panning</li>
-<li>Fixed multiple controller focus issues across pause menus, medal containers, and play menus</li>
-<li>Fixed landmark selection not properly updating the info panel</li>
-<li>Fixed supply crate indicators persisting after the crate expired</li>
-<li>Fixed pause flow when losing a mission due to landmark destruction</li>
-<li>Fixed several tooltip positioning and rendering issues</li>
-<li>Fixed post game menu animation issues</li>
-<li>Removed unused assets and improved memory cleanup during loading and pause screens</li>
+<li>Fixed Site Menu not showing base Power and Economy stats</li>
+<li>Fixed multiple UI focus issues, especially when using a controller or Steam Deck</li>
+<li>Fixed issues where ammo drops failed to spawn</li>
+<li>Fixed Support Sites incorrectly applying or removing bonuses during power outages</li>
+<li>Fixed Founder Boosts displaying incorrectly in the post game screen</li>
+<li>Fixed several stability issues caused by orphaned terrain objects</li>
 </ul>
 <!----></div></article><!----><!----></div></main> <footer class="svelte-rmkusp"><a href="https://nighthawk-studios.com/" target="_blank" rel="noopener" class="svelte-rmkusp">© 2026 Nighthawk Studios LLC</a> · <a href="https://store.steampowered.com/app/3575690/Empyrean_Defense/" target="_blank" rel="noopener" class="svelte-rmkusp">Steam</a> · <a href="https://www.instagram.com/nighthawk.studios/" target="_blank" rel="noopener" class="svelte-rmkusp">Instagram</a></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_13scu48 = {
+					__sveltekit_1yt5q3g = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.Dl1bFcgU.js"),
-						import("./_app/immutable/entry/app.BjMYGBVx.js")
+						import("./_app/immutable/entry/start.B8oqVoAq.js"),
+						import("./_app/immutable/entry/app.y5WQpyLw.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],
