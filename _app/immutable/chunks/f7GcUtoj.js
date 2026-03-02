@@ -1,7 +1,33 @@
 const e=`# Release Notes\r
 \r
-## **v0.9.1 - Interface & Performance Improvements (February 22, 2026)**\r
+## **v0.10.0 - Teleport, Path Indicators, and Improved Vessel Water Dynamics (March 1, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- New Ability: Teleport - Displaces a group of enemies, instantly teleporting them back along their advance and disrupting their push.\r
+- Path Indicators: Added ground and naval path indicators during the setup phase\r
+- Water Improvements: Updated water shader to include Gerstner swells and CPU wave sampling for vessel rotation\r
+\r
+#### Improvements\r
+- Updated ability icons for:\r
+  - Firestorm\r
+  - Lightning Storm\r
+- Added tabbed containers in the Market to make browsing and navigation easier\r
+- Allow tooltips in menu pages to be hidden when using controller\r
+- Updated UI Scale setting info text and reordered it within the settings list\r
+- Updated wave overlay countdown to use mm:ss format\r
+\r
+#### Balance Changes\r
+- Landmines Ability\r
+  - Cooldown increased from **30s** → **80s**\r
+- Set all mission countdown timers to 90 seconds\r
+\r
+#### Bug Fixes\r
+- Fixed pause menu reliability on Steam Deck when application not focused\r
+- Fixed main menu flicker when returning from gameplay menu\r
+- Fixed Nyra popup triggering incorrectly for deployment checklist items that aren't completed after *Verdant Anchorage*\r
+\r
+## **v0.9.1 - Interface & Performance Improvements (February 22, 2026)**\r
 \r
 #### New Features\r
 - Added progress bars to Economy Sites to better visualize resource production\r

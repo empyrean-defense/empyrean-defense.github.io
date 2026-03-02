@@ -9,7 +9,7 @@ Deploys a cluster of landmines that detonate when enemies step on them\r
 - Tier: II\r
 - Effect: Area\r
 - Rank Required: Major (7)\r
-- Cooldown: 30s\r
+- Cooldown: 80s\r
 - Mines: 15\r
 - Damage (per mine): 150\r
 - Damage (total): 2250hp\r
