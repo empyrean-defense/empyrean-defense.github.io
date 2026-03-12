@@ -1,7 +1,48 @@
 const e=`# Release Notes\r
 \r
-## **v0.10.0 - Teleport, Path Indicators, and Improved Vessel Water Dynamics (March 1, 2026)**\r
+## **v0.11.0 - Breakpoint Reservoir & Performance Improvements (March 11, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added 10th campaign level: *Breakpoint Reservoir*. Help defend Sentinel Dam and stop General Zharos from seizing control of the reservoir and its vital energy infrastructure\r
+- Item drops and Supply drop crates now interact with water and float on the surface instead of sinking\r
+- Decorative boats in water environments now move naturally with the waves\r
+\r
+#### Improvements\r
+- Improved the wording of several loading screen tips to make them clearer and more natural\r
+- Increased the LOD distance for Humvees to improve their visual appearance at range\r
+- Default camera pan sensitivity increased slightly for smoother navigation\r
+- The Quit confirmation popup in the game menu now properly returns focus to the mission panel when closed\r
+- Improved stability and responsiveness when a large number of enemies are active\r
+- Updated the main UI font for improved readability\r
+\r
+#### Balance Changes\r
+- Critical hit multiplier reduced for military sites\r
+  - Reduced from **300%** → **200%**\r
+- *Deep Impact* skill adjusted\r
+  - Reduced effect from **15%** → **5%**\r
+- *Brute Force* skill adjusted\r
+  - Damage bonus reduced from **15%** → **10%**\r
+- Difficulty scaling adjusted\r
+  - Enemy hitpoints scaling on *Hard* and *Impossible* difficulties has been reduced\r
+- Enemy balance adjustments\r
+  - *IFV*\r
+    - Hitpoints increased from **3500** → **3800**\r
+    - Armor increased from **45%** → **60%**\r
+  - *Tank*\r
+    - Hitpoints increased from **4000** → **7500**\r
+    - Armor increased from **50%** → **70%**\r
+- Mission objective changes\r
+  - *Sunflare Dunes* oil objective increased from **6000** → **8000**\r
+\r
+#### Bug Fixes\r
+- Fixed an issue where enemy vessel scale could reset incorrectly\r
+- Fixed incorrect critical chance values appearing in the site upgrade menu\r
+- Fixed an issue where map mission paths displayed incorrectly for *Breakpoint Reservoir*\r
+- Fixed several issues affecting map mission flags in the demo version\r
+- Fixed an issue where Landmarks were not properly registered by the mission manager \r
+\r
+## **v0.10.0 - Teleport, Path Indicators, and Improved Vessel Water Dynamics (March 1, 2026)**\r
 \r
 #### New Features\r
 - New Ability: Teleport - Displaces a group of enemies, instantly teleporting them back along their advance and disrupting their push.\r

@@ -7,18 +7,18 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/2.C769Jem9.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.CsG5NSr7.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/CUW2kIkE.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.DBLiEKkf.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/QjrmJFRf.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.Do9FUcCe.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.CQPyVavJ.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.BsnIG51q.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.B6oqPE4c.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
@@ -36,53 +36,80 @@
 <li><strong>Early Access Release</strong>: Empyrean Defense launches into Early Access on <strong>July 23, 2026</strong>.</li>
 </ul>
 <h2>Status</h2>
-<h2><strong>v0.10.0 - Teleport, Path Indicators, and Improved Vessel Water Dynamics (March 1, 2026)</strong></h2>
+<h2><strong>v0.11.0 - Breakpoint Reservoir &amp; Performance Improvements (March 11, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
 <h4>New Features</h4>
 <ul>
-<li>New Ability: Teleport - Displaces a group of enemies, instantly teleporting them back along their advance and disrupting their push.</li>
-<li>Path Indicators: Added ground and naval path indicators during the setup phase</li>
-<li>Water Improvements: Updated water shader to include Gerstner swells and CPU wave sampling for vessel rotation</li>
+<li>Added 10th campaign level: <em>Breakpoint Reservoir</em>. Help defend Sentinel Dam and stop General Zharos from seizing control of the reservoir and its vital energy infrastructure</li>
+<li>Item drops and Supply drop crates now interact with water and float on the surface instead of sinking</li>
+<li>Decorative boats in water environments now move naturally with the waves</li>
 </ul>
 <h4>Improvements</h4>
 <ul>
-<li>Updated ability icons for:<ul>
-<li>Firestorm</li>
-<li>Lightning Storm</li>
-</ul>
-</li>
-<li>Added tabbed containers in the Market to make browsing and navigation easier</li>
-<li>Allow tooltips in menu pages to be hidden when using controller</li>
-<li>Updated UI Scale setting info text and reordered it within the settings list</li>
-<li>Updated wave overlay countdown to use mm:ss format</li>
+<li>Improved the wording of several loading screen tips to make them clearer and more natural</li>
+<li>Increased the LOD distance for Humvees to improve their visual appearance at range</li>
+<li>Default camera pan sensitivity increased slightly for smoother navigation</li>
+<li>The Quit confirmation popup in the game menu now properly returns focus to the mission panel when closed</li>
+<li>Improved stability and responsiveness when a large number of enemies are active</li>
+<li>Updated the main UI font for improved readability</li>
 </ul>
 <h4>Balance Changes</h4>
 <ul>
-<li>Landmines Ability<ul>
-<li>Cooldown increased from <strong>30s</strong> → <strong>80s</strong></li>
+<li>Critical hit multiplier reduced for military sites<ul>
+<li>Reduced from <strong>300%</strong> → <strong>200%</strong></li>
 </ul>
 </li>
-<li>Set all mission countdown timers to 90 seconds</li>
+<li><em>Deep Impact</em> skill adjusted<ul>
+<li>Reduced effect from <strong>15%</strong> → <strong>5%</strong></li>
+</ul>
+</li>
+<li><em>Brute Force</em> skill adjusted<ul>
+<li>Damage bonus reduced from <strong>15%</strong> → <strong>10%</strong></li>
+</ul>
+</li>
+<li>Difficulty scaling adjusted<ul>
+<li>Enemy hitpoints scaling on <em>Hard</em> and <em>Impossible</em> difficulties has been reduced</li>
+</ul>
+</li>
+<li>Enemy balance adjustments<ul>
+<li><em>IFV</em><ul>
+<li>Hitpoints increased from <strong>3500</strong> → <strong>3800</strong></li>
+<li>Armor increased from <strong>45%</strong> → <strong>60%</strong></li>
+</ul>
+</li>
+<li><em>Tank</em><ul>
+<li>Hitpoints increased from <strong>4000</strong> → <strong>7500</strong></li>
+<li>Armor increased from <strong>50%</strong> → <strong>70%</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Mission objective changes<ul>
+<li><em>Sunflare Dunes</em> oil objective increased from <strong>6000</strong> → <strong>8000</strong></li>
+</ul>
+</li>
 </ul>
 <h4>Bug Fixes</h4>
 <ul>
-<li>Fixed pause menu reliability on Steam Deck when application not focused</li>
-<li>Fixed main menu flicker when returning from gameplay menu</li>
-<li>Fixed Nyra popup triggering incorrectly for deployment checklist items that aren&#39;t completed after <em>Verdant Anchorage</em></li>
+<li>Fixed an issue where enemy vessel scale could reset incorrectly</li>
+<li>Fixed incorrect critical chance values appearing in the site upgrade menu</li>
+<li>Fixed an issue where map mission paths displayed incorrectly for <em>Breakpoint Reservoir</em></li>
+<li>Fixed several issues affecting map mission flags in the demo version</li>
+<li>Fixed an issue where Landmarks were not properly registered by the mission manager</li>
 </ul>
 <!----></div></article><!----><!----></div></main> <footer class="svelte-rmkusp"><a href="https://nighthawk-studios.com/" target="_blank" rel="noopener" class="svelte-rmkusp">© 2026 Nighthawk Studios LLC</a> · <a href="https://store.steampowered.com/app/3575690/Empyrean_Defense/" target="_blank" rel="noopener" class="svelte-rmkusp">Steam</a> · <a href="https://www.instagram.com/nighthawk.studios/" target="_blank" rel="noopener" class="svelte-rmkusp">Instagram</a></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_1bgca52 = {
+					__sveltekit_nzrzqq = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.CsG5NSr7.js"),
-						import("./_app/immutable/entry/app.Do9FUcCe.js")
+						import("./_app/immutable/entry/start.DBLiEKkf.js"),
+						import("./_app/immutable/entry/app.CQPyVavJ.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],

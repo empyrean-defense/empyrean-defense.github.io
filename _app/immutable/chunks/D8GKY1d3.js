@@ -5,9 +5,9 @@ const e=`[Back](/enemies)\r
 Serves as Zharos' main armored powerhouse. Its reinforced plating shrugs off most incoming fire, and its main cannon can devastate defensive positions if left unchecked. While slow moving, it absorbs huge amounts of damage and draws attention away from supporting units. When one appears on the field, it often signals the start of a major offensive. Focus all heavy firepower to bring it down before it reaches your core defenses.\r
 \r
 ## Stats\r
-- Health: 4000 hp\r
+- Health: 7500 hp\r
 - Speed: 9 m/s\r
-- Armor: 50 ap\r
+- Armor: 70 ap\r
 - Credits: 300\r
 \r
 - Damage: 300\r
