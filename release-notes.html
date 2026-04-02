@@ -7,25 +7,79 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/3.oOcI5n1d.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.Bfg2AWnT.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/D4MQNXHi.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.l-Pucbo1.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/Btg1zMeL.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.DHIXdATf.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.DS4iKaqX.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/13.fCLYqAim.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/13.l0eXXcoN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents"><!--[--><!--[--><!----><main class="svelte-rmkusp"><nav class="sidebar svelte-137bbzy"><div class="mobile-bar svelte-137bbzy"><img class="logo svelte-137bbzy" src="/logo.png" alt="Empyrean Defense"> <button class="menu-btn svelte-137bbzy" type="button">Menu</button></div> <div class="desktop-header svelte-137bbzy"><br> <img src="/logo.png" title="Empyrean Defense" alt="Empyrean Defense" width="100%"> <br> <div class="logo_text svelte-137bbzy"><b>WIKI</b></div> <hr></div> <div class="links svelte-137bbzy"><!--[--><a href="/" class="svelte-137bbzy">Home</a><a href="/playtest/" class="svelte-137bbzy">Playtest</a><a href="/release-notes/" class="svelte-137bbzy">Release Notes</a><!--]--> <hr> <!--[--><a href="/abilities/" class="svelte-137bbzy">Abilities</a><a href="/achievements/" class="svelte-137bbzy">Achievements</a><a href="/ammunition/" class="svelte-137bbzy">Ammunition</a><a href="/enemies/" class="svelte-137bbzy">Enemies</a><a href="/items/" class="svelte-137bbzy">Items</a><a href="/ranks/" class="svelte-137bbzy">Ranks</a><a href="/sites/" class="svelte-137bbzy">Sites</a><a href="/skills/" class="svelte-137bbzy">Skills</a><!--]--></div></nav><!----> <div class="content svelte-rmkusp"><!----><!----><article class="markdown-body svelte-1186yb2"><div><!----><h1>Release Notes</h1>
-<h2><strong>v0.11.0 - Breakpoint Reservoir &amp; Performance Improvements (March 11, 2026)</strong></h2>
+<h2><strong>v0.12.2 - Performance Enhancements &amp; Localization (April 1, 2026)</strong></h2>
 <p><strong>Status:</strong> 🟢 <em>Live on Steam Playtest</em></p>
+<h4>New Features</h4>
+<ul>
+<li>Localization added with support for 5 languages: English, Simplified Chinese, Japanese, Korean, and Russian</li>
+<li>Added Overdrive ability<ul>
+<li>Boosts the firepower of all military sites within range by 15% for a short duration</li>
+</ul>
+</li>
+<li>Added controller guides to settings and level loading screens</li>
+<li>Added controller pointer icon when hovering over sites</li>
+<li>Added action text to tooltips for neutral targets</li>
+<li>Added soft text glow to Founder DLC titles and all Tier II and Tier III market items and abilities</li>
+</ul>
+<h4>Improvements</h4>
+<ul>
+<li>General performance improvements to reduce minor stuttering</li>
+<li>Reduced shadow map size to improve performance</li>
+<li>Updated main font and increased font sizes across the UI for better readability</li>
+<li>Improved UI layout for popups and the in-game top bar</li>
+<li>Updated site descriptions to sound more natural</li>
+<li>Reworded all skills for improved clarity and consistency</li>
+<li>Increased visibility of important UI elements such as warning text and completion labels</li>
+<li>Adjusted default draw distance from 1.5 to 1.3</li>
+<li>Increased render distance of rocket trails</li>
+<li>Improved explosion audio intensity</li>
+<li>Updated landmines to move with Gerstner wave swells</li>
+<li>Increased vessel collision box sizes for better hit detection</li>
+<li>Updated path shield symbol and site shield visuals</li>
+<li>Updated Landmark and Boss icons and switch Boss to High Value Target</li>
+<li>Increased focus and hover highlight color intensity in some of the menu pages</li>
+<li>Automatically scroll to the top/bottom of the Abilities page when focusing a top/bottom row ability</li>
+<li>Automatically scroll to the top of the Foundry page when focusing a top row element</li>
+</ul>
+<h4>Balance Changes</h4>
+<ul>
+<li>Reduced SAM Launcher health slightly (demo version)</li>
+<li>Reduced Extra Credit skill bonus from <strong>15%</strong> → <strong>10%</strong></li>
+<li>Reduced Reduced Taxes skill bonus from <strong>15%</strong> → <strong>10%</strong></li>
+<li>Adjusted starting resource amounts in the Market</li>
+<li>Rounded site repair values to align with credit/hitpoint ratio</li>
+</ul>
+<h4>Bug Fixes</h4>
+<ul>
+<li>Fixed achievements persisting incorrectly across save slots</li>
+<li>Fixed new enemy encountered popups not appearing</li>
+<li>Fixed controller action icon displaying mouse input in level panel</li>
+<li>Fixed demo Level 3 time requirement issues</li>
+<li>Fixed LNG models losing material overlays</li>
+<li>Fixed settings not saving correctly from the main menu</li>
+<li>Fixed visual issues with site shield upgrades</li>
+<li>Fixed some explosion ghosting</li>
+<li>Fixed issue with redeeming Founder DLC packages granting equipment already purchased</li>
+<li>Fixed issue where ability text in game would flash briefly</li>
+</ul>
+<h2><strong>v0.11.0 - Breakpoint Reservoir &amp; Performance Improvements (March 11, 2026)</strong></h2>
 <h4>New Features</h4>
 <ul>
 <li>Added 10th campaign level: <em>Breakpoint Reservoir</em>. Help defend Sentinel Dam and stop General Zharos from seizing control of the reservoir and its vital energy infrastructure</li>
@@ -545,15 +599,15 @@
 			
 			<script>
 				{
-					__sveltekit_1x498ij = {
+					__sveltekit_19qb1p5 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.Bfg2AWnT.js"),
-						import("./_app/immutable/entry/app.DHIXdATf.js")
+						import("./_app/immutable/entry/start.l-Pucbo1.js"),
+						import("./_app/immutable/entry/app.DS4iKaqX.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 13],

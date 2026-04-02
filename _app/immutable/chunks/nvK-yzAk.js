@@ -1,7 +1,56 @@
 const e=`# Release Notes\r
 \r
-## **v0.11.0 - Breakpoint Reservoir & Performance Improvements (March 11, 2026)**\r
+## **v0.12.2 - Performance Enhancements & Localization (April 1, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Localization added with support for 5 languages: English, Simplified Chinese, Japanese, Korean, and Russian\r
+- Added Overdrive ability\r
+  - Boosts the firepower of all military sites within range by 15% for a short duration\r
+- Added controller guides to settings and level loading screens\r
+- Added controller pointer icon when hovering over sites\r
+- Added action text to tooltips for neutral targets\r
+- Added soft text glow to Founder DLC titles and all Tier II and Tier III market items and abilities\r
+\r
+#### Improvements\r
+- General performance improvements to reduce minor stuttering\r
+- Reduced shadow map size to improve performance\r
+- Updated main font and increased font sizes across the UI for better readability\r
+- Improved UI layout for popups and the in-game top bar\r
+- Updated site descriptions to sound more natural\r
+- Reworded all skills for improved clarity and consistency\r
+- Increased visibility of important UI elements such as warning text and completion labels\r
+- Adjusted default draw distance from 1.5 to 1.3\r
+- Increased render distance of rocket trails\r
+- Improved explosion audio intensity\r
+- Updated landmines to move with Gerstner wave swells\r
+- Increased vessel collision box sizes for better hit detection\r
+- Updated path shield symbol and site shield visuals\r
+- Updated Landmark and Boss icons and switch Boss to High Value Target\r
+- Increased focus and hover highlight color intensity in some of the menu pages\r
+- Automatically scroll to the top/bottom of the Abilities page when focusing a top/bottom row ability\r
+- Automatically scroll to the top of the Foundry page when focusing a top row element\r
+\r
+#### Balance Changes\r
+- Reduced SAM Launcher health slightly (demo version)\r
+- Reduced Extra Credit skill bonus from **15%** → **10%**\r
+- Reduced Reduced Taxes skill bonus from **15%** → **10%**\r
+- Adjusted starting resource amounts in the Market\r
+- Rounded site repair values to align with credit/hitpoint ratio\r
+\r
+#### Bug Fixes\r
+- Fixed achievements persisting incorrectly across save slots\r
+- Fixed new enemy encountered popups not appearing\r
+- Fixed controller action icon displaying mouse input in level panel\r
+- Fixed demo Level 3 time requirement issues\r
+- Fixed LNG models losing material overlays\r
+- Fixed settings not saving correctly from the main menu\r
+- Fixed visual issues with site shield upgrades\r
+- Fixed some explosion ghosting\r
+- Fixed issue with redeeming Founder DLC packages granting equipment already purchased\r
+- Fixed issue where ability text in game would flash briefly\r
+\r
+## **v0.11.0 - Breakpoint Reservoir & Performance Improvements (March 11, 2026)**\r
 \r
 #### New Features\r
 - Added 10th campaign level: *Breakpoint Reservoir*. Help defend Sentinel Dam and stop General Zharos from seizing control of the reservoir and its vital energy infrastructure\r
