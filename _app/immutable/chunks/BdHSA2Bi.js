@@ -10,7 +10,7 @@ Empyrean Defense is a modern warfare tower defense game where you build, upgrade
 \r
 We're gearing up for an exciting 2026!\r
 - **Official Playtest**: The official playtest is LIVE! For anyone interested in testing the game prior to the demo and Early Access, please sign up <a href="https://forms.gle/dwwXvsX9oaai5b5p6" target="_blank">here</a>. Once your submission is accepted, you will receive an activation key and can head over to the [Playtest Page](/playtest) to get started!\r
-- **Public Demo**: Our first public demo will be available in **March**. Come try the game, share feedback, and help shape development.\r
+- **Public Demo**: The public demo will be available the first week of **April**. Come try the game, share feedback, and help shape development.\r
 - **Steam Next Fest**: Check out Empyrean Defense at Steam Next Fest **June 15-22, 2026**.\r
 - **Early Access Release**: Empyrean Defense launches into Early Access on **July 23, 2026**.\r
 \r
