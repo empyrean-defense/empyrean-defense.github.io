@@ -1,5 +1,32 @@
 const e=`# Release Notes\r
 \r
+## **v0.12.5 - Demo Updates & Scattershot (April 12, 2026)**\r
+**Status:**\r
+🟢 *Live on Steam Demo*\r
+🟠 *Coming soon to Steam Playtest*\r
+\r
+#### New Features\r
+- Added the **Scattershot** ability: Detonates a burst of white hot shrapnel in all directions, damaging all enemies within range\r
+- [DEMO] Added a supply drop to the beginning of *Graywake Reach* in the demo filled with **Rockets** and **Sniper Rounds**\r
+- [DEMO] Updated the demo to start directly in *Graywake Reach*\r
+\r
+#### Improvements\r
+- [DEMO] Players now start with both **Rocket Strike** and **Scattershot** abilities selected\r
+- [DEMO] **Repair** ability is now available without the need to purchase on the market\r
+- [DEMO] **Wraith Turret** ability has been moved to the market for purchase\r
+- [DEMO] Reduced the market cost of the **Wraith Turret** and **Overdrive** abilities significantly\r
+\r
+#### Balance Changes\r
+- Increased the base damage boost of the Overdrive ability from **15%** → **25%**\r
+- [DEMO] Reduced the base damage of the Attack Vessel from **45** → **40**\r
+- [DEMO] Reduced the base damage of the APC from **45** → **40**\r
+\r
+#### Bug Fixes\r
+- Fixed issue with generic progress bar tweens causing incorrect health values to display when switching targets\r
+\r
+#### Bug Fixes\r
+- Fixed issue with generic progress bar tweens causing incorrect health values to display when switching targets\r
+\r
 ## **v0.12.2 - Performance Enhancements & Localization (April 1, 2026)**\r
 **Status:** 🟢 *Live on Steam Playtest*\r
 \r
