@@ -7,10 +7,10 @@ const e=`# Release Notes\r
 \r
 #### New Features\r
 - Added the **Scattershot** ability: Detonates a burst of white hot shrapnel in all directions, damaging all enemies within range\r
-- [DEMO] Added a supply drop to the beginning of *Graywake Reach* in the demo filled with **Rockets** and **Sniper Rounds**\r
-- [DEMO] Updated the demo to start directly in *Graywake Reach*\r
 \r
 #### Improvements\r
+- [DEMO] Added a supply drop to the beginning of *Graywake Reach* in the demo filled with **Rockets** and **Sniper Rounds**\r
+- [DEMO] Updated the demo to start directly in *Graywake Reach*\r
 - [DEMO] Players now start with both **Rocket Strike** and **Scattershot** abilities selected\r
 - [DEMO] **Repair** ability is now available without the need to purchase on the market\r
 - [DEMO] **Wraith Turret** ability has been moved to the market for purchase\r
