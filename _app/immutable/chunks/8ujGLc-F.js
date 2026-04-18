@@ -1,9 +1,28 @@
 const e=`# Release Notes\r
 \r
-## **v0.12.5 - Demo Updates & Scattershot (April 12, 2026)**\r
+## **v0.12.7 - Demo Updates & Scattershot (April 18, 2026)**\r
 **Status:**\r
 🟢 *Live on Steam Demo*\r
-🟠 *Coming soon to Steam Playtest*\r
+🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- [DEMO] Added skill point mission rewards\r
+- Redesigned *Harborview District* mission\r
+- Added Brazilian Portuguese and German localization\r
+\r
+#### Improvements\r
+- [DEMO] Existing demo save files are now granted mission reward skill points retroactively\r
+- [DEMO] Added 5 skill points and 3 skill reset kits to all demo save files (including existing ones)\r
+- Standardized UI formatting with uppercase buttons, titles, and subtitles\r
+- Adjusted notification timing:\r
+  - Faster achievement popups\r
+  - Slower mission reward notifications for better readability\r
+\r
+#### Bug Fixes\r
+- Fixed translation issue in skill tree tooltip\r
+- Fixed various localization issues, including incorrect text in the Chapel landmark info panel\r
+\r
+## **v0.12.5 - Demo Updates & Scattershot (April 12, 2026)**\r
 \r
 #### New Features\r
 - Added the **Scattershot** ability: Detonates a burst of white hot shrapnel in all directions, damaging all enemies within range\r
@@ -28,7 +47,6 @@ const e=`# Release Notes\r
 - Fixed issue with generic progress bar tweens causing incorrect health values to display when switching targets\r
 \r
 ## **v0.12.2 - Performance Enhancements & Localization (April 1, 2026)**\r
-**Status:** 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
 - Localization added with support for 5 languages: English, Simplified Chinese, Japanese, Korean, and Russian\r
