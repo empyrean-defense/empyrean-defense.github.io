@@ -1,9 +1,70 @@
 const e=`# Release Notes\r
 \r
-## **v0.12.7 - Demo Updates & Scattershot (April 18, 2026)**\r
+## **v0.14.3 - Equipment Crafting, New Skills & Items, Shipwrecked Achievement (May 8, 2026)**\r
 **Status:**\r
 🟢 *Live on Steam Demo*\r
 🟢 *Live on Steam Playtest*\r
+\r
+#### New Features\r
+- Added Equipment Crafting to the Foundry\r
+- Added the Void Resonator Core and Nanite Fabricator Mesh rare resources\r
+- Added the Shipwrecked achievement\r
+  - Discover the wreckage of a long lost battleship hidden beneath the waves\r
+- Added base armor ratings to all sites\r
+- Added Fortification Payload equipment to improve site armor\r
+- Added the First Strike skill\r
+  - Each site's opening strike on an enemy deals 10% bonus damage and has a 10% increased critical hit chance\r
+- Added the Fortified Foundations skill\r
+  - Grants all sites a permanent 10% increase to their armor rating, reducing incoming damage\r
+- Added the Acid Rain ability\r
+  - Showers the area in corrosive acid, dealing armor-piercing damage over time\r
+\r
+#### Balance Changes\r
+- Increased wave sizes in Sunflare Dunes\r
+- Increased Speed Medal completion times in Sunflare Dunes to account for larger waves\r
+- Increased equipment prices in the Market to encourage crafting through the Foundry\r
+\r
+#### Bug Fixes\r
+- Fixed an issue where the star icon could block mouse hover detection on main menu buttons for completed save files\r
+\r
+## **v0.14.0 - Sunflare Dunes (April 30, 2026)**\r
+\r
+Greetings, Commanders!\r
+\r
+A new challenge has arrived. The demo has just been updated with an entirely new mission: **Sunflare Dunes**. The heat is relentless, and resources are scarce—this one will test your ability to adapt under pressure.\r
+\r
+**Mission Overview**:\r
+\r
+**Sunflare Dunes takes** place on the outskirts of a deserted oil town, where maintaining production is key to your success. This mission introduces a new objective focused on resource generation, requiring you to keep oil flowing while holding back enemy forces.\r
+\r
+**Tactical Intel**:\r
+\r
+- **Power the Pumpjacks**: Oil production depends on your power grid. Without sufficient power, pumpjacks will stall—prioritize upgrading your solar arrays to keep them running.\r
+\r
+- **Keep Them Operational**: Pumpjacks are vulnerable to enemy fire. Stay on top of repairs to avoid losing critical production during heavy waves.\r
+\r
+- **Balance Defense and Economy**: You’ll need to manage both your defenses and your resource generation carefully. Falling behind on oil production can quickly limit your options.\r
+\r
+- **Hold the Perimeter**: Enemy forces will pressure multiple approaches into the town. Maintain coverage across both entry points to prevent your defenses from being overwhelmed.\r
+\r
+## **v0.13.2 - Frostwind Hold (April 20, 2026)**\r
+\r
+Greetings, Commanders!\r
+\r
+A new challenge has arrived. The demo has just been updated with an entirely new mission: **Frostwind Hold**. Pack your cold weather gear—this one is going to be a struggle for survival.\r
+\r
+**Mission Overview**:\r
+\r
+**Frostwind Hold** introduces a frozen mountain pass centered around a remote power utility base. This mission offers a faster pace and tactical challenge compared to the previous two demo missions. Your objective is to secure the region and prevent **General Zharos** from seizing control of the power infrastructure.\r
+\r
+**Tactical Intel**:\r
+\r
+- **Restore the Grid**: You’ll need to prioritize bringing the Power Plant online. Doing so restores power to the deployed Tesla Coil—your best asset for holding the front line of incoming enemy waves.\r
+- **Airborne Threats**: There are no existing anti-air defenses at the base. Prioritize building these yourself as soon as the power is back online.\r
+- **Watch the Flanks**: Be sure to maintain coverage on the mountain pass that runs alongside the hold to prevent enemies from bypassing your main defenses.\r
+\r
+## **v0.12.7 - Demo Updates & Scattershot (April 18, 2026)**\r
+\r
 \r
 #### New Features\r
 - [DEMO] Added skill point mission rewards\r

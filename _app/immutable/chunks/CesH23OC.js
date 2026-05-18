@@ -16,24 +16,29 @@ We're gearing up for an exciting 2026!\r
 \r
 ## Status\r
 \r
-## **v0.12.7 - Demo Updates & Scattershot (April 18, 2026)**\r
+## **v0.14.3 - Equipment Crafting, New Skills & Items, Shipwrecked Achievement (May 8, 2026)**\r
 **Status:**\r
 🟢 *Live on Steam Demo*\r
 🟢 *Live on Steam Playtest*\r
 \r
 #### New Features\r
-- [DEMO] Added skill point mission rewards\r
-- Redesigned *Harborview District* mission\r
-- Added Brazilian Portuguese and German localization\r
+- Added Equipment Crafting to the Foundry\r
+- Added the Void Resonator Core and Nanite Fabricator Mesh rare resources\r
+- Added the Shipwrecked achievement\r
+  - Discover the wreckage of a long lost battleship hidden beneath the waves\r
+- Added base armor ratings to all sites\r
+- Added Fortification Payload equipment to improve site armor\r
+- Added the First Strike skill\r
+  - Each site's opening strike on an enemy deals 10% bonus damage and has a 10% increased critical hit chance\r
+- Added the Fortified Foundations skill\r
+  - Grants all sites a permanent 10% increase to their armor rating, reducing incoming damage\r
+- Added the Acid Rain ability\r
+  - Showers the area in corrosive acid, dealing armor-piercing damage over time\r
 \r
-#### Improvements\r
-- [DEMO] Existing demo save files are now granted mission reward skill points retroactively\r
-- [DEMO] Added 5 skill points and 3 skill reset kits to all demo save files (including existing ones)\r
-- Standardized UI formatting with uppercase buttons, titles, and subtitles\r
-- Adjusted notification timing:\r
-  - Faster achievement popups\r
-  - Slower mission reward notifications for better readability\r
+#### Balance Changes\r
+- Increased wave sizes in Sunflare Dunes\r
+- Increased Speed Medal completion times in Sunflare Dunes to account for larger waves\r
+- Increased equipment prices in the Market to encourage crafting through the Foundry\r
 \r
 #### Bug Fixes\r
-- Fixed translation issue in skill tree tooltip\r
-- Fixed various localization issues, including incorrect text in the Chapel landmark info panel`;export{e as default};
+- Fixed an issue where the star icon could block mouse hover detection on main menu buttons for completed save files`;export{e as default};

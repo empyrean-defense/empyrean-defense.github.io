@@ -29,4 +29,6 @@ const e=`# Achievements\r
 | <img src="/achievements/AllStar_256_Enabled.png" title="All Star" alt="All Star" width="64px"> | All Star | Earn all stars across every region and difficulty |\r
 | <img src="/achievements/SpeedDemon_256_Enabled.png" title="Speed Demon" alt="Speed Demon" width="64px"> | Speed Demon | Earn all Time Medals across every region and difficulty |\r
 | <img src="/achievements/Untouchable_256_Enabled.png" title="Untouchable" alt="Untouchable" width="64px"> | Untouchable | Earn all Perfection Medals across every region and difficulty |\r
-| <img src="/achievements/EmpyreanLegacy_256_Enabled.png" title="Empyrean Legacy" alt="Empyrean Legacy" width="64px"> | Empyrean Legacy | Earn all stars and medals across every region and difficulty |`;export{e as default};
+| <img src="/achievements/EmpyreanLegacy_256_Enabled.png" title="Empyrean Legacy" alt="Empyrean Legacy" width="64px"> | Empyrean Legacy | Earn all stars and medals across every region and difficulty |\r
+| <img src="/achievements/Shipwrecked_256_Enabled.png" title="Shipwrecked" alt="Shipwrecked" width="64px"> | Shipwrecked | Discover the wreckage of a long lost battleship hidden beneath the waves |\r
+| <img src="/achievements/Craftsman_256_Enabled.png" title="Craftsman" alt="Craftsman" width="64px"> | Craftsman | Craft your first piece of equipment |`;export{e as default};
