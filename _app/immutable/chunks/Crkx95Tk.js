@@ -16,29 +16,23 @@ We're gearing up for an exciting 2026!\r
 \r
 ## Status\r
 \r
-## **v0.14.3 - Equipment Crafting, New Skills & Items, Shipwrecked Achievement (May 8, 2026)**\r
+## **v0.14.8 - Balance Updates, Localization Fixes, and Demo Polish (June 15, 2026)**\r
 **Status:**\r
 🟢 *Live on Steam Demo*\r
 🟢 *Live on Steam Playtest*\r
 \r
-#### New Features\r
-- Added Equipment Crafting to the Foundry\r
-- Added the Void Resonator Core and Nanite Fabricator Mesh rare resources\r
-- Added the Shipwrecked achievement\r
-  - Discover the wreckage of a long lost battleship hidden beneath the waves\r
-- Added base armor ratings to all sites\r
-- Added Fortification Payload equipment to improve site armor\r
-- Added the First Strike skill\r
-  - Each site's opening strike on an enemy deals 10% bonus damage and has a 10% increased critical hit chance\r
-- Added the Fortified Foundations skill\r
-  - Grants all sites a permanent 10% increase to their armor rating, reducing incoming damage\r
-- Added the Acid Rain ability\r
-  - Showers the area in corrosive acid, dealing armor-piercing damage over time\r
+#### Improvements\r
+- Added in-game objectives reminders on Sidewinder Pass (full version) and Graywake Reach (demo) to keep mission goals top of mind\r
+- Added interaction animations to the Market, Foundry, and Abilities panels\r
+- Added economy production information to site panels, making it easier to understand the output and efficiency of economic structures\r
+- [DEMO] Added reminders when deploying if you have unused skill points or haven't equipped an ability yet\r
 \r
 #### Balance Changes\r
-- Increased wave sizes in Sunflare Dunes\r
-- Increased Speed Medal completion times in Sunflare Dunes to account for larger waves\r
-- Increased equipment prices in the Market to encourage crafting through the Foundry\r
+- Updated the **Rocket Strike** ability\r
+  - Now fires two rockets per activation at a slightly reduced damage per rocket, resulting in higher overall base damage\r
+- Updated the **Triple Threat** skill\r
+  - The third bonus rocket now deals double damage and has a distinct purple trail so it's easy to spot in the chaos\r
 \r
 #### Bug Fixes\r
-- Fixed an issue where the star icon could block mouse hover detection on main menu buttons for completed save files`;export{e as default};
+- Fixed various localization issues across multiple languages\r
+- Mouse cursor now starts centered on the screen when entering a level`;export{e as default};

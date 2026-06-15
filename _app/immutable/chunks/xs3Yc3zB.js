@@ -1,9 +1,27 @@
 const e=`# Release Notes\r
 \r
-## **v0.14.3 - Equipment Crafting, New Skills & Items, Shipwrecked Achievement (May 8, 2026)**\r
+## **v0.14.8 - Balance Updates, Localization Fixes, and Demo Polish (June 15, 2026)**\r
 **Status:**\r
 🟢 *Live on Steam Demo*\r
 🟢 *Live on Steam Playtest*\r
+\r
+#### Improvements\r
+- Added in-game objectives reminders on Sidewinder Pass (full version) and Graywake Reach (demo) to keep mission goals top of mind\r
+- Added interaction animations to the Market, Foundry, and Abilities panels\r
+- Added economy production information to site panels, making it easier to understand the output and efficiency of economic structures\r
+- [DEMO] Added reminders when deploying if you have unused skill points or haven't equipped an ability yet\r
+\r
+#### Balance Changes\r
+- Updated the **Rocket Strike** ability\r
+  - Now fires two rockets per activation at a slightly reduced damage per rocket, resulting in higher overall base damage\r
+- Updated the **Triple Threat** skill\r
+  - The third bonus rocket now deals double damage and has a distinct purple trail so it's easy to spot in the chaos\r
+\r
+#### Bug Fixes\r
+- Fixed various localization issues across multiple languages\r
+- Mouse cursor now starts centered on the screen when entering a level\r
+\r
+## **v0.14.3 - Equipment Crafting, New Skills & Items, Shipwrecked Achievement (May 8, 2026)**\r
 \r
 #### New Features\r
 - Added Equipment Crafting to the Foundry\r
