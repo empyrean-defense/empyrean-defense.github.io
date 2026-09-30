@@ -7,18 +7,18 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/2.C769Jem9.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.BPhAdUYS.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DB2yQn4M.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CaPy_GxA.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D_iJtOam.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.D_CMPK6r.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BIZphMA0.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/2.B79D-yY0.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.BazMeXRL.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
@@ -36,7 +36,7 @@
 <li><strong>Early Access Release</strong>: Empyrean Defense launches into Early Access on <strong>July 23, 2026</strong>.</li>
 </ul>
 <h2>Status</h2>
-<h2><strong>v0.15.0 - Highpoint Station, Assassinate Ability, Phase Disruptor &amp; More (September 29, 2026)</strong></h2>
+<h2><strong>v0.15.1 - Highpoint Station, Assassinate Ability, Phase Disruptor &amp; More (September 29, 2026)</strong></h2>
 <p><strong>Status:</strong>
 🟢 <em>Live on Steam</em>
 🟢 <em>Live on Steam Demo</em></p>
@@ -70,6 +70,7 @@
 <li>Crafting components for the Ballistics Solver and Overcharge Module are now listed in a more consistent order in the Foundry</li>
 <li>Update the Acid Rain Ability icon</li>
 <li>Deployment warnings now appear in the full game too, and only warns about abilities when you have one unequipped and an empty slot to put it in</li>
+<li>Ability tooltips in the Abilities menu and Market now show the rank an ability needs, highlighted in red when you haven&#39;t reached it yet</li>
 </ul>
 <h4>Balance Changes</h4>
 <ul>
@@ -108,6 +109,7 @@
 </ul>
 <h4>Bug Fixes</h4>
 <ul>
+<li>Fixed a race condition in the loading screen that occasionally caused a crash or prevented missions from starting properly</li>
 <li>Fixed issue where the Assault Rifle was providing 3% damage boost instead of 5%</li>
 <li>Fixed the Founder&#39;s Pack popup not closing on a new save slot</li>
 <li>Fixed issue with Missile Strike and Bombing Raid abilities taking longer to hit on high elevation maps</li>
@@ -119,20 +121,21 @@
 <li>Fixed an inconsistent Chinese translation for &quot;Sites&quot;</li>
 <li>Fixed several English typos</li>
 <li>Fixed a sizing issue in the Market center panel to prevent action buttons from being pushed off-screen</li>
+<li>Fixed an issue with Steam Rich Presence in missions</li>
 </ul>
 <!----></div></article><!----><!----></div></main> <footer class="svelte-rmkusp"><a href="https://nighthawk-studios.com/" target="_blank" rel="noopener" class="svelte-rmkusp">© 2026 Nighthawk Studios LLC</a> · <a href="https://store.steampowered.com/app/3575690/Empyrean_Defense/" target="_blank" rel="noopener" class="svelte-rmkusp">Steam</a> · <a href="https://www.instagram.com/nighthawk.studios/" target="_blank" rel="noopener" class="svelte-rmkusp">Instagram</a></footer><!----><!--]--> <!--[!--><!--]--><!--]-->
 			
 			<script>
 				{
-					__sveltekit_kgiot5 = {
+					__sveltekit_pxe6dy = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.BPhAdUYS.js"),
-						import("./_app/immutable/entry/app.D_CMPK6r.js")
+						import("./_app/immutable/entry/start.CaPy_GxA.js"),
+						import("./_app/immutable/entry/app.BIZphMA0.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 2],

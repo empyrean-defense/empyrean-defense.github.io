@@ -1,6 +1,6 @@
 const e=`# Release Notes\r
 \r
-## **v0.15.0 - Highpoint Station, Assassinate Ability, Phase Disruptor & More (September 29, 2026)**\r
+## **v0.15.1 - Highpoint Station, Assassinate Ability, Phase Disruptor & More (September 29, 2026)**\r
 **Status:**\r
 🟢 *Live on Steam*\r
 🟢 *Live on Steam Demo*\r
@@ -31,6 +31,7 @@ const e=`# Release Notes\r
 - Crafting components for the Ballistics Solver and Overcharge Module are now listed in a more consistent order in the Foundry\r
 - Update the Acid Rain Ability icon\r
 - Deployment warnings now appear in the full game too, and only warns about abilities when you have one unequipped and an empty slot to put it in\r
+- Ability tooltips in the Abilities menu and Market now show the rank an ability needs, highlighted in red when you haven't reached it yet\r
 \r
 #### Balance Changes\r
 - Significant price reduction for Tier II and III sites:\r
@@ -59,6 +60,7 @@ const e=`# Release Notes\r
 - Significantly increased drop rates of items from High Value Targets\r
 \r
 #### Bug Fixes\r
+- Fixed a race condition in the loading screen that occasionally caused a crash or prevented missions from starting properly\r
 - Fixed issue where the Assault Rifle was providing 3% damage boost instead of 5%\r
 - Fixed the Founder's Pack popup not closing on a new save slot\r
 - Fixed issue with Missile Strike and Bombing Raid abilities taking longer to hit on high elevation maps\r
@@ -70,6 +72,7 @@ const e=`# Release Notes\r
 - Fixed an inconsistent Chinese translation for "Sites"\r
 - Fixed several English typos\r
 - Fixed a sizing issue in the Market center panel to prevent action buttons from being pushed off-screen\r
+- Fixed an issue with Steam Rich Presence in missions\r
 \r
 ## **v0.14.8 - Balance Updates, Localization Fixes, and Demo Polish (June 15, 2026)**\r
 **Status:**\r

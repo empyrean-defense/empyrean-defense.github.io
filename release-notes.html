@@ -7,24 +7,24 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/3.oOcI5n1d.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.BPhAdUYS.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/DB2yQn4M.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.CaPy_GxA.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/D_iJtOam.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.D_CMPK6r.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BIZphMA0.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/13.DoPS4f6Z.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/13.d4ifVGav.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents"><!--[--><!--[--><!----><main class="svelte-rmkusp"><nav class="sidebar svelte-137bbzy"><div class="mobile-bar svelte-137bbzy"><img class="logo svelte-137bbzy" src="/logo.png" alt="Empyrean Defense"> <button class="menu-btn svelte-137bbzy" type="button">Menu</button></div> <div class="desktop-header svelte-137bbzy"><br> <img src="/logo.png" title="Empyrean Defense" alt="Empyrean Defense" width="100%"> <br> <div class="logo_text svelte-137bbzy"><b>WIKI</b></div> <hr></div> <div class="links svelte-137bbzy"><!--[--><a href="/" class="svelte-137bbzy">Home</a><a href="/playtest/" class="svelte-137bbzy">Playtest</a><a href="/release-notes/" class="svelte-137bbzy">Release Notes</a><!--]--> <hr> <!--[--><a href="/abilities/" class="svelte-137bbzy">Abilities</a><a href="/achievements/" class="svelte-137bbzy">Achievements</a><a href="/ammunition/" class="svelte-137bbzy">Ammunition</a><a href="/enemies/" class="svelte-137bbzy">Enemies</a><a href="/items/" class="svelte-137bbzy">Items</a><a href="/ranks/" class="svelte-137bbzy">Ranks</a><a href="/sites/" class="svelte-137bbzy">Sites</a><a href="/skills/" class="svelte-137bbzy">Skills</a><!--]--></div></nav><!----> <div class="content svelte-rmkusp"><!----><!----><article class="markdown-body svelte-1186yb2"><div><!----><h1>Release Notes</h1>
-<h2><strong>v0.15.0 - Highpoint Station, Assassinate Ability, Phase Disruptor &amp; More (September 29, 2026)</strong></h2>
+<h2><strong>v0.15.1 - Highpoint Station, Assassinate Ability, Phase Disruptor &amp; More (September 29, 2026)</strong></h2>
 <p><strong>Status:</strong>
 🟢 <em>Live on Steam</em>
 🟢 <em>Live on Steam Demo</em></p>
@@ -58,6 +58,7 @@
 <li>Crafting components for the Ballistics Solver and Overcharge Module are now listed in a more consistent order in the Foundry</li>
 <li>Update the Acid Rain Ability icon</li>
 <li>Deployment warnings now appear in the full game too, and only warns about abilities when you have one unequipped and an empty slot to put it in</li>
+<li>Ability tooltips in the Abilities menu and Market now show the rank an ability needs, highlighted in red when you haven&#39;t reached it yet</li>
 </ul>
 <h4>Balance Changes</h4>
 <ul>
@@ -96,6 +97,7 @@
 </ul>
 <h4>Bug Fixes</h4>
 <ul>
+<li>Fixed a race condition in the loading screen that occasionally caused a crash or prevented missions from starting properly</li>
 <li>Fixed issue where the Assault Rifle was providing 3% damage boost instead of 5%</li>
 <li>Fixed the Founder&#39;s Pack popup not closing on a new save slot</li>
 <li>Fixed issue with Missile Strike and Bombing Raid abilities taking longer to hit on high elevation maps</li>
@@ -107,6 +109,7 @@
 <li>Fixed an inconsistent Chinese translation for &quot;Sites&quot;</li>
 <li>Fixed several English typos</li>
 <li>Fixed a sizing issue in the Market center panel to prevent action buttons from being pushed off-screen</li>
+<li>Fixed an issue with Steam Rich Presence in missions</li>
 </ul>
 <h2><strong>v0.14.8 - Balance Updates, Localization Fixes, and Demo Polish (June 15, 2026)</strong></h2>
 <p><strong>Status:</strong></p>
@@ -815,15 +818,15 @@
 			
 			<script>
 				{
-					__sveltekit_kgiot5 = {
+					__sveltekit_pxe6dy = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.BPhAdUYS.js"),
-						import("./_app/immutable/entry/app.D_CMPK6r.js")
+						import("./_app/immutable/entry/start.CaPy_GxA.js"),
+						import("./_app/immutable/entry/app.BIZphMA0.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 13],
