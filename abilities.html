@@ -7,18 +7,18 @@
 		
 		<link href="./_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="./_app/immutable/assets/3.oOcI5n1d.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/entry/start.Cl7tvhJB.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/Byps7AoH.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.BPhAdUYS.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/DB2yQn4M.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.In8Z7LxB.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.D_CMPK6r.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="./_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="./_app/immutable/nodes/3.BPKsmdXM.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3._Nx71RV2.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/BWqIH25B.js">
 	</head>
@@ -82,13 +82,22 @@
 <td align="center"><img src="/ranks/2_shadow_256.png" title="Corporal (3)" alt="Corporal (3)" width="96px"></td>
 </tr>
 <tr>
-<td align="center"><a href="/abilities/repair_area"><img src="/abilities/RepairArea_256.png" title="Repair Area" alt="Repair Area" width="96px"></a></td>
-<td align="center"><a href="/abilities/repair_area">Repair Area</a></td>
+<td align="center"><a href="/abilities/repair_area"><img src="/abilities/RepairArea_256.png" title="Repair" alt="Repair" width="96px"></a></td>
+<td align="center"><a href="/abilities/repair_area">Repair</a></td>
 <td align="center">Utility</td>
 <td align="center">I</td>
-<td align="center">Gradually restores health to all sites within an area over time</td>
-<td align="center">Instant</td>
+<td align="center">Gradually restores hitpoints to all sites and landmarks within an area over time</td>
+<td align="center">Area</td>
 <td align="center"><img src="/ranks/0_shadow_256.png" title="Private (1)" alt="Private (1)" width="96px"></td>
+</tr>
+<tr>
+<td align="center"><a href="/abilities/repair_area"><img src="/abilities/RepairArea_Advanced_256.png" title="Repair (Adv.)" alt="Repair (Adv.)" width="96px"></a></td>
+<td align="center"><a href="/abilities/repair_area">Repair (Adv.)</a></td>
+<td align="center">Utility</td>
+<td align="center">I</td>
+<td align="center">Gradually restores hitpoints to all sites and landmarks within an area over time</td>
+<td align="center">Area</td>
+<td align="center"><img src="/ranks/2_shadow_256.png" title="Corporal (3)" alt="Corporal (3)" width="96px"></td>
 </tr>
 <tr>
 <td align="center"><a href="/abilities/overdrive"><img src="/abilities/Overdrive_256.png" title="Overdrive" alt="Overdrive" width="96px"></a></td>
@@ -143,6 +152,15 @@
 <td align="center">Launches a precision guided missile, locking onto the selected enemy target</td>
 <td align="center">Single Target</td>
 <td align="center"><img src="/ranks/1_shadow_256.png" title="Private First Class (2)" alt="Private First Class (2)" width="96px"></td>
+</tr>
+<tr>
+<td align="center"><a href="/abilities/assassinate"><img src="/abilities/Assassinate_256.png" title="Assassinate" alt="Assassinate" width="96px"></a></td>
+<td align="center"><a href="/abilities/assassinate">Assassinate</a></td>
+<td align="center">Attack</td>
+<td align="center">II</td>
+<td align="center">Deploys an elite covert operative to instantly eliminate the selected enemy target. Does not affect high value targets</td>
+<td align="center">Single Target</td>
+<td align="center"><img src="/ranks/2_shadow_256.png" title="Corporal (3)" alt="Corporal (3)" width="96px"></td>
 </tr>
 <tr>
 <td align="center"><a href="/abilities/bombing_raid"><img src="/abilities/BombingRaid_256.png" title="Bombing Raid" alt="Bombing Raid" width="96px"></a></td>
@@ -221,15 +239,15 @@
 			
 			<script>
 				{
-					__sveltekit_9xorcj = {
+					__sveltekit_kgiot5 = {
 						base: new URL(".", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("./_app/immutable/entry/start.Cl7tvhJB.js"),
-						import("./_app/immutable/entry/app.In8Z7LxB.js")
+						import("./_app/immutable/entry/start.BPhAdUYS.js"),
+						import("./_app/immutable/entry/app.D_CMPK6r.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 3],

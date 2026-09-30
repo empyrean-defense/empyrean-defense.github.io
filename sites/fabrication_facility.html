@@ -7,18 +7,18 @@
 		
 		<link href="../_app/immutable/assets/0.BnTNc5U7.css" rel="stylesheet">
 		<link href="../_app/immutable/assets/3.oOcI5n1d.css" rel="stylesheet">
-		<link rel="modulepreload" href="../_app/immutable/entry/start.Cl7tvhJB.js">
-		<link rel="modulepreload" href="../_app/immutable/chunks/Byps7AoH.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/start.BPhAdUYS.js">
+		<link rel="modulepreload" href="../_app/immutable/chunks/DB2yQn4M.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/Dgnql_Az.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/CaMb6GrU.js">
-		<link rel="modulepreload" href="../_app/immutable/entry/app.In8Z7LxB.js">
+		<link rel="modulepreload" href="../_app/immutable/entry/app.D_CMPK6r.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/Dp1pzeXC.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/B2xQeQ7A.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/CZa7NU1I.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/F5PlBjXV.js">
 		<link rel="modulepreload" href="../_app/immutable/nodes/0.dezpTe-S.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/B8gKVMzl.js">
-		<link rel="modulepreload" href="../_app/immutable/nodes/15.yfQYlTIY.js">
+		<link rel="modulepreload" href="../_app/immutable/nodes/15.Dbt6IoA6.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/BheWnx7M.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/D8VoclmN.js">
 		<link rel="modulepreload" href="../_app/immutable/chunks/BWqIH25B.js">
@@ -33,7 +33,7 @@
 <li>Cost: 1200</li>
 <li>Build Time: 4s</li>
 <li>Power Consumed: 800</li>
-<li>Production: Scrap Metal (15 - 25), Propellant (2 - 4), Engine Components (2 - 4), Heavy Alloy (1 - 4), Electronics (1 - 4)</li>
+<li>Production: Scrap Metal (15 - 30), Propellant (14 - 22, 25% chance), Engine Components (4 - 8, 25% chance), Heavy Alloy (2 - 4, 25% chance), Explosives (2 - 4, 25% chance, requires Coolant Reservoirs), Electronics (18 - 24, 25% chance, requires Air Filtration System)</li>
 <li>Production Time: 30s</li>
 </ul>
 <h2>Upgrades</h2>
@@ -50,13 +50,13 @@
 <td align="center"><img src="/upgrades/ReinforcedStructure_256.png" title="Reinforced Structure" alt="Reinforced Structure" width="96px"></td>
 <td align="center">Reinforced Structure</td>
 <td align="center">Boosts maximum hitpoints by an amount equal to 50% base hitpoints and increases armor rating by +10%</td>
-<td align="center">800</td>
+<td align="center">600</td>
 </tr>
 <tr>
 <td align="center"><img src="/upgrades/TitaniumPlating_256.png" title="Armor Plating" alt="Armor Plating" width="96px"></td>
 <td align="center">Armor Plating</td>
 <td align="center">Boosts maximum hitpoints by an amount equal to the base hitpoints and increases armor rating by +25%</td>
-<td align="center">1600</td>
+<td align="center">1200</td>
 </tr>
 <tr>
 <td align="center"><img src="/upgrades/AutomatedAssembly_256.png" title="Automated Assembly" alt="Automated Assembly" width="96px"></td>
@@ -81,15 +81,15 @@
 			
 			<script>
 				{
-					__sveltekit_9xorcj = {
+					__sveltekit_kgiot5 = {
 						base: new URL("..", location).pathname.slice(0, -1)
 					};
 
 					const element = document.currentScript.parentElement;
 
 					Promise.all([
-						import("../_app/immutable/entry/start.Cl7tvhJB.js"),
-						import("../_app/immutable/entry/app.In8Z7LxB.js")
+						import("../_app/immutable/entry/start.BPhAdUYS.js"),
+						import("../_app/immutable/entry/app.D_CMPK6r.js")
 					]).then(([kit, app]) => {
 						kit.start(app, element, {
 							node_ids: [0, 15],
