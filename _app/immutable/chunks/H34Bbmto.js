@@ -60,7 +60,7 @@ const e=`# Release Notes\r
 - Significantly increased drop rates of items from High Value Targets\r
 \r
 #### Bug Fixes\r
-- Fixed a race condition in the loading screen that occasionally caused a crash or prevented missions from starting properly\r
+- Fixed an issue with the loading screen that occasionally caused a crash or prevented missions from starting properly\r
 - Fixed issue where the Assault Rifle was providing 3% damage boost instead of 5%\r
 - Fixed the Founder's Pack popup not closing on a new save slot\r
 - Fixed issue with Missile Strike and Bombing Raid abilities taking longer to hit on high elevation maps\r
